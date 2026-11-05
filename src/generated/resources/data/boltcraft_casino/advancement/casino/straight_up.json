@@ -1,0 +1,30 @@
+{
+  "parent": "boltcraft_casino:casino/roulette_bet",
+  "criteria": {
+    "straight_up": {
+      "conditions": {
+        "event": "straight_up"
+      },
+      "trigger": "boltcraft_casino:casino"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.boltcraft_casino.straight_up.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "boltcraft_casino:chip_100"
+    },
+    "title": {
+      "translate": "advancements.boltcraft_casino.straight_up.title"
+    }
+  },
+  "requirements": [
+    [
+      "straight_up"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

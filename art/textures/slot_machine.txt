@@ -1,0 +1,326 @@
+# Slot machine, 128x64 atlas for models/slot_machine.bbmodel (GeckoLib, two blocks tall). Light from the top left.
+# Viewer's left on the front is +X in model space; side tiles have the front edge on the left.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/slot_machine.png 128 64
+
+# Lower cabinet front, y 16 down to 1: shadow under the window bezel, the part hidden by the button deck,
+# a velvet panel with a gold seven, the area behind the payout tray and a gold kick strip.
+@tile front_lower 0 0
+11111111111111
+44444444444444
+33333333333333
+22222222222222
+22222222222222
+11111111111111
+4eddddddddddc3
+4dvuuufffuutb3
+4dutttttettsb3
+4duttttettssb3
+4dtssssesssrb3
+4cbbbbbbbbbba3
+33333333333333
+22222222222222
+cccccccccccccb
+
+@tile side_lower 14 0
+d11111111112
+d74444444473
+d41111111143
+d41333333543
+d41343333543
+d41333334543
+d41333333543
+d41333433543
+d41333333543
+d41343333543
+d41333333543
+d41555555543
+d74444444473
+d33333333333
+cccccccccccb
+
+@tile back_lower 26 0
+22222222222222
+37444444444473
+34111111111143
+34133333333543
+34133433333543
+34133333343543
+34133333333543
+34133343333543
+34133333333543
+34133333433543
+34133333333543
+34133333333543
+34155555555543
+37444444444473
+cccccccccccccb
+
+# Upper side, y 26 down to 16: jamb part (10 columns) and the back block (3 columns).
+@tile side_upper 40 0
+d111111111112
+d744444444473
+d411111111143
+d413333333543
+d413433333543
+d413333343543
+d413333333543
+d415555555543
+d744444444473
+d333333333333
+
+# Topper: cyan neon line and three big neon sevens, the middle one yellow.
+@tile marquee_front 53 0
+TTTTTTTTTTTTTT
+MMMM1YYYY1MMMM
+111M1111Y1111M
+11M1111Y1111M1
+1M1111Y1111M11
+
+@tile marquee_side 67 0
+TTTTTTTTTTTTT
+d333333333333
+d444444444444
+d444444444444
+d333333333333
+
+@tile marquee_back 80 0
+33333333333333
+34444444444443
+34333333333343
+34444444444443
+33333333333333
+
+@tile marquee_top 94 0
+eeeeeeeeeeeeed
+e555555555555c
+e545555555455c
+e555555555555c
+e555555555555c
+e555555555555c
+e555555555555c
+e555555555555c
+e555555555555c
+e555555555555c
+e545555555455c
+e555555555555c
+dccccccccccccb
+
+# Button deck in front of the lower cabinet.
+@tile deck_front 53 5
+feeeeeeeeeeeed
+cccccccccccccb
+
+@tile deck_top 53 7
+66666666666666
+55555555555555
+
+@tile deck_side 67 5
+ed
+cb
+
+# Payout tray with a few chips lying in it.
+@tile tray_front 69 5
+eeeeeeed
+ccccccbb
+
+@tile tray_top 69 7
+1RQ11CK1
+11111111
+
+# Gold bezel around the reel window and the dark cavity behind it.
+@tile bezel_left 0 16
+f
+e
+e
+e
+e
+e
+e
+e
+d
+d
+
+@tile bezel_right 1 16
+d
+c
+c
+c
+c
+c
+c
+c
+b
+b
+
+@tile bezel_top 2 16
+ffffffffffff
+
+@tile bezel_bottom 2 17
+cccccccccccc
+
+@tile cavity_floor 14 16
+222222222222
+111111111111
+111111111111
+111111111111
+111111111111
+111111111111
+111111111111
+111111111111
+111111111111
+111111111111
+
+@tile cavity_ceiling 26 16
+000000000000
+000000000000
+000000000000
+000000000000
+000000000000
+000000000000
+000000000000
+000000000000
+000000000000
+000000000000
+
+@tile cavity_wall 38 16
+1111100000
+1111100000
+1111100000
+1111100000
+1111100000
+1111100000
+1111100000
+1111100000
+1111100000
+1111100000
+
+# Reel faces, 4x4 each in symbol order: cherry, lemon, bell, emerald, diamond, seven.
+@tile symbol_cherry 48 16
+CHHC
+HCCH
+PRPR
+RQRQ
+
+# Lemon: pale neon yellow with a green leaf on top, so it never reads as the bell.
+@tile symbol_lemon 52 16
+CYGC
+YWYY
+YYYO
+COOC
+
+# Bell: dark bronze against the bright lemon, narrow crown, wide rim and a clapper under it.
+@tile symbol_bell 56 16
+CecC
+CdbC
+ecba
+CCaC
+
+@tile symbol_emerald 60 16
+CGGC
+GWGH
+GGHH
+CHHC
+
+@tile symbol_diamond 64 16
+DDDE
+DDEE
+CDEC
+CCEC
+
+@tile symbol_seven 68 16
+RRRR
+CCQR
+CCRC
+CRCC
+
+@tile plate_edge 48 20
+KKKK
+
+@tile reel_side 52 20
+2
+2
+2
+2
+
+# Lamp bar above the window and its bulbs.
+@tile lamp_bar_front 72 16
+22222222222222
+
+@tile lamp_bar_side 72 17
+d333333333333
+
+@tile bulb_yellow 86 16
+Y
+
+@tile bulb_pink 87 16
+M
+
+# Buttons on the deck: red spin, yellow bet, green max.
+@tile button_red 88 16
+PRR
+RQQ
+
+@tile button_yellow 91 16
+WY
+YO
+
+@tile button_green 93 16
+WV
+VH
+
+# Lever: chrome arm, red knob, mounting plate.
+@tile lever_arm 96 16
+8
+7
+7
+7
+7
+6
+6
+6
+5
+5
+
+@tile lever_knob 97 16
+PR
+RQ
+
+@tile lever_mount 99 16
+76
+65
+54
+43
+
+@tile plinth_side 0 30
+cccccccccccccccb
+
+@tile plinth_top 16 30
+eeeeeeeeeeeeeeed
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+dbbbbbbbbbbbbbba
+
+# Gold masks above and below the reels: the window shows exactly one face of each reel.
+@tile mask_top 2 18
+dddddddddddd
+bbbbbbbbbbbb
+
+@tile mask_bottom 2 20
+ffffffffffff
+cccccccccccc
+
+@tile reel_divider 0 26
+e
+d
+d
+c

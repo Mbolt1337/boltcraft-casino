@@ -1,0 +1,19 @@
+# Breaking particles of the slot machine: dark steel with gold trim and a strip of neon.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/slot_machine_particle.png 16 16
+@tile particle 0 0
+TTTTTTTTTTTTTTTT
+d333333333333333
+eeeeeeeeeeeeeeed
+5744444444444473
+5411111111111143
+541CCCC1CCCC1543
+541CHHC1RRRR1543
+541PRPR1CCQR1543
+541RQRQ1CRCC1543
+5411111111111143
+5744444444444473
+4eddddddddddddc3
+4dvuuuuuuuuuutb3
+4dtssssssssssrb3
+4cbbbbbbbbbbbba3
+cccccccccccccccb

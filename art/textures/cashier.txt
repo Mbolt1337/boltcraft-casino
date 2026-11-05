@@ -1,0 +1,113 @@
+# Cashier counter, 64x64 atlas for models/cashier.bbmodel (Java block model). Light from the top left.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/cashier.png 64 64
+
+# Customer side of the counter: velvet panel in a gold frame, diamond emblem, dark plinth.
+@tile front 0 0
+xxxxxxxxxxxxxw
+zeddddddddddcx
+zdvuuuuuuuutbx
+zdutttfftttsbx
+zdutttcctttsbx
+zdtssssssssrbx
+zcbbbbbbbbbbax
+wwwwwwwwwwwwww
+
+# Sides and back: dark wood frame and a recessed grained panel, front edge on the left.
+@tile side 14 0
+xxxxxxxxxxxxxx
+zywwwwwwwwwwyx
+zywxxxyxxxxzyx
+zywxxxxxxyxzyx
+zywxyxxxxxxzyx
+zywzzzzzzzzzyx
+zyyyyyyyyyyyyx
+wwwwwwwwwwwwww
+
+# Counter top: gold-edged front, planks running across with seams every four pixels.
+@tile counter_top 0 8
+eeeeeeeeeeeeeeed
+zzzzzzzzzzzzzzzy
+yyyyyyzyyyyyyyyx
+yyyyyyyyyyyxyyyx
+xxxxxxxxxxxxxxxw
+zzzzzzzzzzzzzzzy
+yyyxyyyyyyyyyyyx
+yyyyyyyyyzyyyyyx
+xxxxxxxxxxxxxxxw
+zzzzzzzzzzzzzzzy
+yyyyyyyyyyyyxyyx
+yyyyzyyyyyyyyyyx
+xxxxxxxxxxxxxxxw
+zzzzzzzzzzzzzzzy
+yyyyyyyyxyyyyyyx
+xxxxxxxxxxxxxxxw
+
+@tile counter_edge 16 8
+feeeeeeeeeeeeeed
+
+@tile counter_under 32 8
+wwww
+wwww
+wwww
+wwww
+
+# Sign board above the teller window with a red chip.
+@tile brass 42 10
+feed
+eedc
+edcb
+dcbb
+
+@tile chip_stack 46 10
+RR
+QQ
+
+@tile chip_stack_blue 48 10
+BB
+NN
+
+# Teller-side chip rack: rows of red, blue and cream chips in a wooden frame.
+@tile rack_top 50 10
+zzzzzzzzzy
+zRCRCRCRCx
+zBCBCBCBCx
+zKCKCKCKCx
+yxxxxxxxxw
+
+@tile rack_front 50 15
+zyyyyyyyyx
+
+# Booth wall on the counter, seen from the customer: velvet-panelled posts, the window in the middle
+# (cols 4-9, rows 3-6 stay empty: there is no geometry there) and the sign with a red chip above it.
+@tile booth_front 0 24
+eeeeeeeeeeeeed
+zyydyRCCRydyyx
+zvtdxxQQxxdtsx
+zutd......dtsx
+zutd......dtsx
+zssd......dsrx
+ccccc....ccccb
+
+# Teller side of the booth wall.
+@tile booth_back 14 24
+eeeeeeeeeeeeed
+zyyyyyyyyyyyyx
+zyxy......yxyx
+zyxy......yxyx
+zyxy......yxyx
+zyxy......yxyx
+xwww......wwww
+
+@tile booth_edge 28 24
+ze
+yd
+yd
+yd
+yd
+yd
+xc
+
+@tile window_ceiling 30 24
+xxxxxx
+wwwwww
+

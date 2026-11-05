@@ -1,0 +1,76 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "velvet": "boltcraft_casino:block/decor/velvet",
+    "tufted": "boltcraft_casino:block/decor/velvet_tufted",
+    "wood": "boltcraft_casino:block/decor/dark_wood",
+    "gold": "boltcraft_casino:block/decor/gold",
+    "particle": "boltcraft_casino:block/decor/velvet"
+  },
+  "elements": [
+    {
+      "from": [
+        13,
+        3,
+        1
+      ],
+      "to": [
+        16,
+        11,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#velvet"
+        },
+        "south": {
+          "texture": "#velvet"
+        },
+        "east": {
+          "texture": "#velvet"
+        },
+        "west": {
+          "texture": "#velvet"
+        },
+        "up": {
+          "texture": "#velvet"
+        },
+        "down": {
+          "texture": "#velvet"
+        }
+      }
+    },
+    {
+      "from": [
+        13,
+        11,
+        1
+      ],
+      "to": [
+        16,
+        12,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gold"
+        },
+        "south": {
+          "texture": "#gold"
+        },
+        "east": {
+          "texture": "#gold"
+        },
+        "west": {
+          "texture": "#gold"
+        },
+        "up": {
+          "texture": "#gold"
+        },
+        "down": {
+          "texture": "#gold"
+        }
+      }
+    }
+  ]
+}

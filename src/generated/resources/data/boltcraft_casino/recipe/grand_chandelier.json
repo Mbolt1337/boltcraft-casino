@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "boltcraft_casino:crystal_chandelier"
+    },
+    {
+      "item": "boltcraft_casino:crystal_chandelier"
+    },
+    {
+      "item": "boltcraft_casino:crystal_chandelier"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "boltcraft_casino:grand_chandelier"
+  }
+}

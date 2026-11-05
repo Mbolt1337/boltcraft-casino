@@ -1,0 +1,109 @@
+{
+  "vault_open": {
+    "subtitle": "subtitles.boltcraft_casino.vault_open",
+    "sounds": [
+      {
+        "name": "boltcraft_casino:block/vault_open",
+        "volume": 0.8
+      }
+    ]
+  },
+  "vault_close": {
+    "subtitle": "subtitles.boltcraft_casino.vault_close",
+    "sounds": [
+      {
+        "name": "boltcraft_casino:block/vault_close",
+        "volume": 0.8
+      }
+    ]
+  },
+  "lever_pull": {
+    "subtitle": "subtitles.boltcraft_casino.lever_pull",
+    "sounds": [
+      {
+        "name": "boltcraft_casino:block/lever_pull",
+        "volume": 0.8
+      }
+    ]
+  },
+  "reel_spin": {
+    "subtitle": "subtitles.boltcraft_casino.reel_spin",
+    "sounds": [
+      {
+        "name": "boltcraft_casino:block/reel_spin",
+        "volume": 0.8
+      }
+    ]
+  },
+  "reel_stop": {
+    "subtitle": "subtitles.boltcraft_casino.reel_stop",
+    "sounds": [
+      {
+        "name": "boltcraft_casino:block/reel_stop",
+        "volume": 0.8
+      }
+    ]
+  },
+  "win_small": {
+    "subtitle": "subtitles.boltcraft_casino.win_small",
+    "sounds": [
+      {
+        "name": "boltcraft_casino:block/win_small",
+        "volume": 0.8
+      }
+    ]
+  },
+  "win_big": {
+    "subtitle": "subtitles.boltcraft_casino.win_big",
+    "sounds": [
+      {
+        "name": "boltcraft_casino:block/win_big",
+        "volume": 0.8
+      }
+    ]
+  },
+  "jackpot": {
+    "subtitle": "subtitles.boltcraft_casino.jackpot",
+    "sounds": [
+      {
+        "name": "boltcraft_casino:block/jackpot",
+        "volume": 0.8
+      }
+    ]
+  },
+  "chip_clink": {
+    "subtitle": "subtitles.boltcraft_casino.chip_clink",
+    "sounds": [
+      {
+        "name": "boltcraft_casino:block/chip_clink1",
+        "volume": 0.8
+      },
+      {
+        "name": "boltcraft_casino:block/chip_clink2",
+        "volume": 0.8
+      },
+      {
+        "name": "boltcraft_casino:block/chip_clink3",
+        "volume": 0.8
+      }
+    ]
+  },
+  "roulette_spin": {
+    "subtitle": "subtitles.boltcraft_casino.roulette_spin",
+    "sounds": [
+      {
+        "name": "boltcraft_casino:block/roulette_spin",
+        "volume": 0.6
+      }
+    ]
+  },
+  "ball_drop": {
+    "subtitle": "subtitles.boltcraft_casino.ball_drop",
+    "sounds": [
+      {
+        "name": "boltcraft_casino:block/ball_drop",
+        "volume": 0.8
+      }
+    ]
+  }
+}

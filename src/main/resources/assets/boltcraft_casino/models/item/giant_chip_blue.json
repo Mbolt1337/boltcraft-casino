@@ -1,0 +1,120 @@
+{
+ "parent": "minecraft:block/block",
+ "textures": {
+  "board": "boltcraft_casino:block/board/giant_chip_blue",
+  "particle": "boltcraft_casino:block/board/giant_chip_blue"
+ },
+ "elements": [
+  {
+   "from": [
+    0.0,
+    0.0,
+    7.5
+   ],
+   "to": [
+    16.0,
+    16.0,
+    8.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#board",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "south": {
+     "texture": "#board",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    }
+   }
+  }
+ ],
+ "display": {
+  "gui": {
+   "rotation": [
+    0,
+    180,
+    0
+   ],
+   "scale": [
+    0.95,
+    0.95,
+    0.95
+   ]
+  },
+  "fixed": {
+   "rotation": [
+    0,
+    180,
+    0
+   ],
+   "scale": [
+    0.95,
+    0.95,
+    0.95
+   ]
+  },
+  "ground": {
+   "translation": [
+    0,
+    2,
+    0
+   ],
+   "scale": [
+    0.475,
+    0.475,
+    0.475
+   ]
+  },
+  "thirdperson_righthand": {
+   "rotation": [
+    0,
+    180,
+    0
+   ],
+   "translation": [
+    0,
+    2.5,
+    0
+   ],
+   "scale": [
+    0.38,
+    0.38,
+    0.38
+   ]
+  },
+  "firstperson_righthand": {
+   "rotation": [
+    0,
+    135,
+    0
+   ],
+   "scale": [
+    0.38,
+    0.38,
+    0.38
+   ]
+  },
+  "firstperson_lefthand": {
+   "rotation": [
+    0,
+    135,
+    0
+   ],
+   "scale": [
+    0.38,
+    0.38,
+    0.38
+   ]
+  }
+ }
+}

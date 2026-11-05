@@ -1,0 +1,23 @@
+# The croupier's speech bubble, nine-sliced around the text with 4 pixel corners, and its tail pointing down at
+# his head. Cream paper with a dark wood outline, shaded along the bottom.
+@texture src/main/resources/assets/boltcraft_casino/textures/entity/speech_bubble.png 32 16
+@tile bubble 0 0
+..wwwwwwww..
+.wWWWWWWWWw.
+wWWWWWWWWWWw
+wWWWWWWWWWWw
+wWWWWWWWWWWw
+wWWWWWWWWWWw
+wWWWWWWWWWWw
+wWWWWWWWWWWw
+wWWWWWWWWWWw
+wCCCCCCCCCCw
+.wCCCCCCCCw.
+..wwwwwwww..
+
+# Drawn over the bubble's bottom edge, so its first row opens the outline.
+@tile tail 16 0
+wCCCw
+.wCw.
+.wCw.
+..w..

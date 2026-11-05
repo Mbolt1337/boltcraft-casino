@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "boltcraft_casino:block/architecture/coffer",
+    "east": "boltcraft_casino:block/decor/dark_wood",
+    "north": "boltcraft_casino:block/decor/dark_wood",
+    "particle": "boltcraft_casino:block/decor/dark_wood",
+    "south": "boltcraft_casino:block/decor/dark_wood",
+    "up": "boltcraft_casino:block/decor/dark_wood",
+    "west": "boltcraft_casino:block/decor/dark_wood"
+  }
+}

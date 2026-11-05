@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "boltcraft_casino:neon_letter"
+    },
+    {
+      "item": "boltcraft_casino:neon_letter"
+    },
+    {
+      "item": "boltcraft_casino:neon_letter"
+    },
+    {
+      "item": "boltcraft_casino:neon_letter"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:dark_oak_planks"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "boltcraft_casino:neon_panel_boltcraft"
+  }
+}

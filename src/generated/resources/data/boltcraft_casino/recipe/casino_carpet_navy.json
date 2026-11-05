@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "boltcraft_casino:casino_carpet_navy_block"
+    }
+  },
+  "pattern": [
+    "CC"
+  ],
+  "result": {
+    "count": 3,
+    "id": "boltcraft_casino:casino_carpet_navy"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_sofa"
+      },
+      "when": {
+        "facing": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_sofa_arm_left"
+      },
+      "when": {
+        "arm_left": "true",
+        "facing": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_sofa_arm_right"
+      },
+      "when": {
+        "arm_right": "true",
+        "facing": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_sofa",
+        "y": 90
+      },
+      "when": {
+        "facing": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_sofa_arm_left",
+        "y": 90
+      },
+      "when": {
+        "arm_left": "true",
+        "facing": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_sofa_arm_right",
+        "y": 90
+      },
+      "when": {
+        "arm_right": "true",
+        "facing": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_sofa",
+        "y": 180
+      },
+      "when": {
+        "facing": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_sofa_arm_left",
+        "y": 180
+      },
+      "when": {
+        "arm_left": "true",
+        "facing": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_sofa_arm_right",
+        "y": 180
+      },
+      "when": {
+        "arm_right": "true",
+        "facing": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_sofa",
+        "y": 270
+      },
+      "when": {
+        "facing": "west"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_sofa_arm_left",
+        "y": 270
+      },
+      "when": {
+        "arm_left": "true",
+        "facing": "west"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_sofa_arm_right",
+        "y": 270
+      },
+      "when": {
+        "arm_right": "true",
+        "facing": "west"
+      }
+    }
+  ]
+}

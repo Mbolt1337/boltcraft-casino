@@ -1,0 +1,563 @@
+# Decor materials and parts, one 16x16 texture each, for the models written by art/decor_models.py.
+# Light from the top left. Most model faces take the part of the texture under their own pixels, the vanilla way,
+# so a texture is drawn as the material looks across a whole block.
+
+# Brushed gold with a bevel, for rails, posts, rings and feet.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/gold.png 16 16
+@tile gold 0 0
+eeeeeeeeeeeeeeed
+eddddddeeddddddc
+ddddddddddddddcc
+dedddddddddeddcc
+ddddddccdddddddc
+ddddddddddddddcc
+dddeeddddddddddc
+dddddddddddcddcc
+ddcdddddddddddcc
+ddddddddedddddcc
+dddddddddddddddc
+deddddcddddddddc
+ddddddddddddedcc
+ddddddddddddddcb
+dccdccccdcccccbb
+cbbbbbbbbbbbbbba
+
+# Polished dark wood planks, joints staggered.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/dark_wood.png 16 16
+@tile dark_wood 0 0
+zzzzzzzzzzzZzzzz
+yyyyyyyxyyyyyyyy
+yyyyyyyyyyyyyxyy
+xxxxxxxxxxxxxxxx
+zzzzzzzzwzzzzzzz
+yyyxyyyywyyyyyyy
+yyyyyyyywyyyyxyy
+xxxxxxxxxxxxxxxx
+zzzZzzzzzzzzzzzz
+yyyyyyyyyyyxyyyy
+yxyyyyyyyyyyyyyy
+xxxxxxxxxxxxxxxx
+zzzzzzzzzzzzzwzz
+yyyyyyyxyyyyywyy
+yyyyyyyyyyyyywyx
+xxxxxxxxxxxxxxxx
+
+# Diamond tufted velvet: creases between the buttons, each cushion lit on its upper left, gold buttons.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/velvet_tufted.png 16 16
+@tile velvet_tufted 0 0
+cuuttttscuutttts
+urtttssrurtttssr
+utrtsrrvutrtsrrv
+uttrsrvuuttrsrvu
+tttscuuttttscuut
+tssrurtttssrurtt
+srrvutrtsrrvutrt
+srvuuttrsrvuuttr
+cuuttttscuutttts
+urtttssrurtttssr
+utrtsrrvutrtsrrv
+uttrsrvuuttrsrvu
+tttscuuttttscuut
+tssrurtttssrurtt
+srrvutrtsrrvutrt
+srvuuttrsrvuuttr
+
+# Plain velvet: the nap catches the light in soft streaks.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/velvet.png 16 16
+@tile velvet 0 0
+ttuuuttttttttsst
+tuuvuuttttttsstt
+tuuuuttttttssttt
+ttuutttttttstttt
+tttttttttsstttuu
+ttttsttttstttuuu
+tttssttttttttuvu
+ttssttttttttuuuu
+tsstttuutttttuut
+ssttttuvuttttttt
+sttttuuuuttttsst
+tttttuuttttttsss
+tttttttttttsssst
+uutttttttttssttt
+uvuttttttttstttt
+uuuttttttssstttu
+
+# Velvet hanging in pleats: ridges catch the light, the folds between them fall dark.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/curtain.png 16 16
+@tile curtain 0 0
+vuttsrstvuttsrst
+vuttsrstvuttsrst
+vuttsrstuuttsrst
+vuttssstvuttsrst
+uuttsrstvuttsrst
+vuttsrstvutttrst
+vuttsrstvuttsrst
+vutttrstvuttsrst
+vuttsrstvuttsrst
+vuttsrsttuttsrst
+vuttsrstvuttsrst
+vuttsrstvuttssst
+uuttsrstvuttsrst
+vuttsrstvuttsrst
+vutttrstvuttsrst
+vuttsrstvuttsrst
+
+# Gold tassel fringe along the bottom of a curtain; only the lowest rows are used.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/fringe.png 16 16
+@tile fringe 0 0
+................
+................
+................
+................
+................
+................
+................
+................
+................
+................
+................
+ffffffffffffffff
+dcdddcdddcdddcdd
+d.d.d.d.d.d.d.d.
+c.c.c.c.c.c.c.c.
+e.e.e.e.e.e.e.e.
+
+# Velvet rope: a thick cord, the twist shown by diagonal sheen.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/rope_red.png 16 16
+@tile rope 0 0
+vutsvutsvutsvuts
+utsvutsvutsvutsv
+tsvutsvutsvutsvu
+svutsvutsvutsvut
+vutsvutsvutsvuts
+utsvutsvutsvutsv
+tsvutsvutsvutsvu
+svutsvutsvutsvut
+vutsvutsvutsvuts
+utsvutsvutsvutsv
+tsvutsvutsvutsvu
+svutsvutsvutsvut
+vutsvutsvutsvuts
+utsvutsvutsvutsv
+tsvutsvutsvutsvu
+svutsvutsvutsvut
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/rope_blue.png 16 16
+@recolor rope 0 0 vuts LBNn
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/rope_green.png 16 16
+@recolor rope 0 0 vuts GpHo
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/rope_black.png 16 16
+@recolor rope 0 0 vuts 6421
+
+# Burgundy carpet: a lattice of dark diagonals, a gold medallion where they cross, gold studs between.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/carpet_burgundy.png 16 16
+@tile carpet_burgundy 0 0
+ectttttrcrtttttc
+cbttttttrttttttb
+ttstttttttttttst
+tttstttttttttstt
+ttttstttstttsttt
+tttttstsdststttt
+ttttttsdrdsttttt
+rttttsdrerdstttt
+crttsdreferdsttr
+rttttsdrerdstttt
+ttttttsdrdsttttt
+tttttstsdststttt
+ttttstttstttsttt
+tttstttttttttstt
+ttstttttttttttst
+cbttttttrttttttb
+
+# Navy carpet with gold stars.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/carpet_navy.png 16 16
+@tile carpet_navy 0 0
+nnnnnnnnNnnnnnnn
+nnnnnnnnnnnnnnnn
+nnnncnnnnnnnnnnn
+nnnnennnnnnnndnn
+nncefecnnnnnnnnn
+nnnnennnnnnnnnnn
+nnnncnnnnnnnNnnn
+nnnnnnnnnnnnnnnn
+Nnnnnnnnnnnnnnnn
+nnnnnnnnnnncnnnn
+nnnnnnnnnncecnnn
+nndnnnnnnnncnnnn
+nnnnnnNnnnnnnnnn
+nnnnnnnnnnnnnnnn
+nnnnnnndnnnnnnNn
+nnnnnnnnnnnnnnnn
+
+# Green felt carpet: dense nap with darker and lighter tufts.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/carpet_felt.png 16 16
+@tile carpet_felt 0 0
+SSSSUSSSSSSSJSSS
+SUSSSSSSJSSSSSSU
+SSSSSSJSSSSUSSSS
+SSJSSSSSSSSSSSSS
+SSSSSSSSUSSSSJSS
+USSSSJSSSSSSSSSS
+SSSSSSSSSSJSSSUS
+SSSUSSSSSSSSSSSS
+SJSSSSSSUSSSSSSS
+SSSSSSJSSSSSJSSS
+SSSSSSSSSSSSSSSU
+SSUSSSSSSJSSSSSS
+SSSSSSSUSSSSSSJS
+JSSSSSSSSSSUSSSS
+SSSSJSSSSSSSSSSS
+SSSSSSSSSJSSSSSS
+
+# Diamond carpet: burgundy and black diamonds, crossed by dashed gold lines.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/carpet_diamond.png 16 16
+@tile carpet_diamond 0 0
+d111111121111111
+1d111112u211111d
+11d1112utu2111d1
+111d12utttu21d11
+1111dutttttud111
+111utdtttttdts11
+11uttudtttdtsts1
+1uttttudtdtttsts
+2tttttttdttttsss
+11tttttdtdttts11
+111tttdtttdts111
+1111tdtttttds111
+1111dttttttsd111
+111d11tttts11d11
+11d1111tts1111d1
+1d111111s111111d
+
+# Large polished white marble tiles, one to a block, crossed by a grey vein and a fainter one.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/marble_tiles.png 16 16
+@tile marble_tiles 0 0
+WWWWWWWWWWWWWWCK
+WWWWWWWWWWWWWWCK
+WWWWWWWWWCWWWWCK
+CWWWWWWWWWCWWWCK
+WCCWWWWWWWWWWWCK
+WWWCWWWWWWWWWWCK
+WWWWKCWWWWWWWWCK
+WWWWWWCWWWWWWWCK
+WWWWWWCWWWWWWWCK
+WWWWWWWCCWWWWWCK
+WWWWWWWWWKCWWWCK
+WWWWWWWWWWWCWWCK
+WWWWWWWWWWWCCWCK
+WWWWWWWWWWWWWCKK
+CCCCCCCCCCCCCCCK
+KKKKKKKKKKKKKKKk
+
+# Plain polished marble, for the tops of columns and other small marble faces.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/marble.png 16 16
+@tile marble 0 0
+WWWWWWWWWWWWWWWC
+WWWWWWWWKWWWWWWC
+WWWWWWWKWWWWWWWC
+WWWWWWkWWWWWWWWC
+WWWWWKWWWWWWWWCC
+WWWWKWWWWWWWWWWC
+WWWWKWWWWWWWWWWC
+WWWKWWWWWWCWWWWC
+WWkWWWWWWWWWWWWC
+WWKWWWWWWWWWWKWC
+WKWWWWWWWWWWKWWC
+WKWWWWWWWWWkWWWC
+WWWWCWWWWWKWWWWC
+WWWWWWWWWKWWWWWC
+WWWWWWWWWWWWWWCC
+CCCCCCCCCCCCCCCK
+
+# Black and white marble checkerboard, two squares a side.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/checkered_tiles.png 16 16
+@tile checkered_tiles 0 0
+WWWWWWWC33333332
+WWWWWWWC31111110
+WWWWWCWC31111110
+WWWWCWWC31121110
+WWWCWWWC31112110
+WWWWWWWC31111110
+WWWWWWWC31111110
+CCCCCCCK20000000
+33333332WWWWWWWC
+31111110WWWWWWWC
+31111110WWWWWCWC
+31121110WWWWCWWC
+31112110WWWCWWWC
+31111110WWWWWWWC
+31111110WWWWWWWC
+20000000CCCCCCCK
+
+# Fluted marble column shaft: ridges lit on the left, grooves in shadow.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/column_shaft.png 16 16
+@tile column_shaft 0 0
+CCCWCKWCKWCKWCCC
+CCCWCKWCKWCKWCCC
+CCCWCKWCKWCkWCCC
+CCCWCKWCKWCKWCCC
+CCCWCKWCkWCKWCCC
+CCCWCKWCKWCKWCCC
+CCCWCKWCKWCKWCCC
+CCCWCkWCKWCKWCCC
+CCCWCKWCKWCKWCCC
+CCCWCKWCKWCKWCCC
+CCCWCKWCKWCkWCCC
+CCCWCKWCKWCKWCCC
+CCCWCKWCKWCKWCCC
+CCCWCKWCkWCKWCCC
+CCCWCKWCKWCKWCCC
+CCCWCKWCKWCKWCCC
+
+# Carved marble for the capital (top rows: dentils under a lip) and the plinth (bottom rows: stepped base).
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/column_trim.png 16 16
+@tile column_trim 0 0
+WWWWWWWWWWWWWWWC
+CKCKCKCKCKCKCKCK
+KKKKKKKKKKKKKKKk
+CCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCC
+WWWWWWWWWWWWWWWC
+CCCCCCCCCCCCCCCK
+KKKKKKKKKKKKKKKk
+
+# Onyx column: the same carving in black stone, its capital and plinth gilded.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/column_shaft_onyx.png 16 16
+@recolor column_shaft 0 0 WCKk 5310
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/column_trim_onyx.png 16 16
+@recolor column_trim 0 0 WCKk fdba
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/marble_onyx.png 16 16
+@recolor marble 0 0 WCKk 3210
+
+# Velvet wall panel: tufted velvet sunk in a gold molding.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/velvet_wall_panel.png 16 16
+@copy velvet_tufted 0 0
+@tile wall_molding 0 0
+fffffffffffffffd
+feeeeeeeeeeeeedc
+ferrrrrrrrrrrrcb
+fer...........cb
+fer...........cb
+fer...........cb
+fer...........cb
+fer...........cb
+fer...........cb
+fer...........cb
+fer...........cb
+fer...........cb
+fer...........cb
+fer...........cb
+edccccccccccccbb
+dbbbbbbbbbbbbbba
+
+# Dark wood wall panel: a raised field in a frame, ringed by a gold bead.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/wood_wall_panel.png 16 16
+@tile wood_wall_panel 0 0
+zzzzzzzzzzzzzzzx
+zyyyyyyyyyyyyyxw
+zyzzzzzzzzzzzwxw
+zyzfeeeeeeeedwxw
+zyzeyyyxyyyycwxw
+zyzeyyyxyyyycwxw
+zyzeyyyyyyxycwxw
+zyzeyxyyyyxycwxw
+zyzeyxyyyyyycwxw
+zyzeyyyyyxyycwxw
+zyzeyyyyyxyycwxw
+zyzeyyyyyyyycwxw
+zyzdccccccccbwxw
+zywwwwwwwwwwwwxw
+zxxxxxxxxxxxxxxw
+xwwwwwwwwwwwwwww
+
+# The customer side of the bar: a tufted velvet panel framed in dark wood and gold, a kick plate below.
+# The top two rows sit under the counter top and are never seen.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/counter_front.png 16 16
+@copy velvet_tufted 0 0
+@tile counter_frame 0 0
+xxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxx
+wwwwwwwwwwwwwwww
+yfeeeeeeeeeeeedx
+ye............cx
+ye............cx
+ye............cx
+ye............cx
+ye............cx
+ye............cx
+ye............cx
+ye............cx
+ydccccccccccccbx
+yyyyyyyyyyyyyyyx
+xxxxxxxxxxxxxxxw
+wwwwwwwwwwwwwwww
+
+# The bartender's side: two shelves of bottles. The top two rows sit under the counter top.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/counter_back.png 16 16
+@tile counter_back 0 0
+xxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxx
+yxxxxxxxxxxxxxxw
+ywwGwwwwwwwwOwwx
+ywwHwwLww8wwOwwx
+ywpHwLNww7wYOwwx
+ywpHwLNww7wYOwwx
+ywHownnww6wOawwx
+yzzzzzzzzzzzzzzx
+yxxxxxxxxxxxxxxx
+ywwwwRwwwwwGwwwx
+ywLwwRwwCwwGwwwx
+ywLwQRwwCwpHwwwx
+ywNwQqwwKwpHwwwx
+yzzzzzzzzzzzzzzx
+wwwwwwwwwwwwwwww
+
+# Card table top: green felt with a cream betting line, two cards dealt and a short stack of red chips.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/card_table_top.png 16 16
+@tile card_table_top 0 0
+SSSSSSSSSSSSSSSS
+SUSSSSSSSSSSSSUS
+SSSSSCCCCCCSSSSS
+SSSCCSSSSSSCCSSS
+SSCSSSSUSSSSSCSS
+SCSSSSSSSSSSSSCS
+SSSSWWWCSSSSSSSS
+SSSSWRWCWWWCSSSS
+SUSSWWWCW1WCSSSS
+SSSSWWRCWWWCJSSS
+SSSSCCCKWW1CJSSS
+SSSSJJJJCCCKJPRS
+SSUSSSSSJJJJJRRQ
+SSSSSSSSSSSSSQQq
+SSSSSSSSUSSSSJJJ
+SSSSSSSSSSSSSSSS
+
+# Faceted crystal for chandelier drops.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/crystal.png 16 16
+@tile crystal 0 0
+WDDEWDDEWDDEWDDE
+DDEEDDEEDDEEDDEE
+DEEDDEEDDEEDDEED
+EEDWEEDWEEDWEEDW
+WDDEWDDEWDDEWDDE
+DDEEDDEEDDEEDDEE
+DEEDDEEDDEEDDEED
+EEDWEEDWEEDWEEDW
+WDDEWDDEWDDEWDDE
+DDEEDDEEDDEEDDEE
+DEEDDEEDDEEDDEED
+EEDWEEDWEEDWEEDW
+WDDEWDDEWDDEWDDE
+DDEEDDEEDDEEDDEE
+DEEDDEEDDEEDDEED
+EEDWEEDWEEDWEEDW
+
+# A lit bulb or candle flame: warm white with a golden rim.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/flame.png 16 16
+@tile flame 0 0
+gggggggfgggggggf
+gggfgggggggfgggg
+gggggggggggggggg
+fggggfgggggggfgg
+gggggggggggggggg
+gggggggfgggggggg
+ggfggggggggfgggg
+gggggggggggggggf
+gggggfgggggggggg
+gggggggggggggggg
+fggggggggfgggggg
+ggggggfggggggggg
+gggggggggggggfgg
+gggfgggggggggggg
+gggggggggggggggg
+ggggggggfggggggf
+
+# Gold planter: rolled rim, an embossed band round the body, a dark foot.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/planter.png 16 16
+@tile planter 0 0
+eeeeeeeeeeeeeeed
+eeeeeeeeeeeeeeed
+eeeeeeeeeeeeeeed
+eeeeeeeeeeeeeeed
+eeeeeeeeeeeeeeed
+eeeeeeeeeeeeeeed
+ffffffffffffffef
+eeeeeeeeeeeeeddc
+bbbbbbbbbbbbbbba
+eeeddddddddddddc
+edcedcedcedcedcb
+ddddddddddddddcc
+eedddddddddddccc
+ddddddddddddcccb
+bbbbbbbbbbbbbbba
+aaaaaaaaaaaaaaaa
+
+# Potting soil.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/soil.png 16 16
+@tile soil 0 0
+xwxxwxxxxwxxxwxx
+xxxywxxwxxxyxxxw
+wxxxxxxxxwxxxxxx
+xxwxxyxxxxxxwxyx
+xxxxxxxwxxxxxxxx
+xyxxwxxxxxywxxxx
+xxxxxxxxxxxxxxwx
+wxxxxyxwxxxxxxxx
+xxwxxxxxxxwxyxxx
+xxxxwxxxyxxxxxxw
+xyxxxxxxxxxxxwxx
+xxxxxxwxxxyxxxxx
+xwxxyxxxxxxxxwxx
+xxxxxxxxwxxxxxxx
+xxwxxxyxxxxwxxyx
+wxxxxxxxxxxxxxxx
+
+# A dwarf palm for the planter, seen from the side: fronds arching out of a ringed trunk.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/palm.png 16 16
+@tile palm 0 0
+......pGGp......
+...pGGp..pGGp...
+..pGp.pGGp.pGp..
+.pGp.pGHHGp.pGp.
+.pH.pGpHHpGp.Hp.
+pH..GpoHHopG..Hp
+H..pHo.HH.oHp..H
+..pHo.oyxo.oHp..
+.oHo...yx...oHo.
+.H.....yx.....H.
+.......zx.......
+.......yw.......
+.......zx.......
+.......yw.......
+.......zx.......
+.......yw.......
+
+# Marquee: a gold-edged black channel; the bulbs are a separate animated texture.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/marquee_channel.png 16 16
+@tile marquee_channel 0 6
+eeeeeeeeeeeeeeee
+1111111111111111
+0000000000000000
+cccccccccccccccc
+
+# Marquee bulbs, four frames: two of every four bulbs are lit and the lit pair steps one bulb right per frame.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/decor/marquee_bulbs.png 16 64
+@tile bulbs_0 0 7
+.gf..gf..cb..cb.
+.fe..fe..ba..ba.
+@tile bulbs_1 0 23
+.cb..gf..gf..cb.
+.ba..fe..fe..ba.
+@tile bulbs_2 0 39
+.cb..cb..gf..gf.
+.ba..ba..fe..fe.
+@tile bulbs_3 0 55
+.gf..cb..cb..gf.
+.fe..ba..ba..fe.

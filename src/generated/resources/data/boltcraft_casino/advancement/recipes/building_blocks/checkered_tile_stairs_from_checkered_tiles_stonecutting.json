@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "boltcraft_casino:checkered_tile_stairs_from_checkered_tiles_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "boltcraft_casino:checkered_tiles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tiles"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "boltcraft_casino:checkered_tile_stairs_from_checkered_tiles_stonecutting"
+    ]
+  }
+}

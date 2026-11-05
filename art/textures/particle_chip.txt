@@ -1,0 +1,74 @@
+# Chips poured out by a winning slot machine: four frames of a chip flipping end over end, 8x8 each.
+# Drawn once as the red chip; the other values are palette swaps (outline, light, body, shadow, rim marks).
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_red_0.png 8 8
+@tile chip_face 0 0
+..qqqq..
+.qPCCRq.
+qPRQQRRq
+qCQPRQCq
+qCQRRQCq
+qRRQQRQq
+.qRCCQq.
+..qqqq..
+
+# Tipped away: the face squashed on top, the striped rim below it.
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_red_1.png 8 8
+@tile chip_tipped 0 0
+........
+........
+.qqqqqq.
+qPRCCRRq
+qRQRRQQq
+qQCQQCQq
+.qqqqqq.
+........
+
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_red_2.png 8 8
+@tile chip_edge 0 0
+........
+........
+........
+.qqqqqq.
+qRCRRCRq
+.qqqqqq.
+........
+........
+
+# Tipped towards the viewer: the rim on top, the other face below it.
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_red_3.png 8 8
+@tile chip_tipped_back 0 0
+........
+.qqqqqq.
+qRCRRCRq
+qPRRRRQq
+qRQCCQQq
+.qqqqqq.
+........
+........
+
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_white_0.png 8 8
+@recolor chip_face 0 0 qPRQC kWCKB
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_white_1.png 8 8
+@recolor chip_tipped 0 0 qPRQC kWCKB
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_white_2.png 8 8
+@recolor chip_edge 0 0 qPRQC kWCKB
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_white_3.png 8 8
+@recolor chip_tipped_back 0 0 qPRQC kWCKB
+
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_blue_0.png 8 8
+@recolor chip_face 0 0 qPRQC nLBNC
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_blue_1.png 8 8
+@recolor chip_tipped 0 0 qPRQC nLBNC
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_blue_2.png 8 8
+@recolor chip_edge 0 0 qPRQC nLBNC
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_blue_3.png 8 8
+@recolor chip_tipped_back 0 0 qPRQC nLBNC
+
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_black_0.png 8 8
+@recolor chip_face 0 0 qPRQC 0531e
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_black_1.png 8 8
+@recolor chip_tipped 0 0 qPRQC 0531e
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_black_2.png 8 8
+@recolor chip_edge 0 0 qPRQC 0531e
+@texture src/main/resources/assets/boltcraft_casino/textures/particle/chip_black_3.png 8 8
+@recolor chip_tipped_back 0 0 qPRQC 0531e

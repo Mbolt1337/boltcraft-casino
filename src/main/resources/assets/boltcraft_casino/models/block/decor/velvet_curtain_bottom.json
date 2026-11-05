@@ -1,0 +1,160 @@
+{
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "curtain": "boltcraft_casino:block/decor/curtain",
+    "gold": "boltcraft_casino:block/decor/gold",
+    "fringe": "boltcraft_casino:block/decor/fringe",
+    "particle": "boltcraft_casino:block/decor/curtain"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        13
+      ],
+      "to": [
+        4,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#curtain"
+        },
+        "south": {
+          "texture": "#curtain"
+        },
+        "east": {
+          "texture": "#curtain"
+        },
+        "west": {
+          "texture": "#curtain"
+        },
+        "up": {
+          "texture": "#curtain"
+        },
+        "down": {
+          "texture": "#curtain"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        0,
+        12
+      ],
+      "to": [
+        8,
+        16,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#curtain"
+        },
+        "south": {
+          "texture": "#curtain"
+        },
+        "east": {
+          "texture": "#curtain"
+        },
+        "west": {
+          "texture": "#curtain"
+        },
+        "up": {
+          "texture": "#curtain"
+        },
+        "down": {
+          "texture": "#curtain"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        0,
+        13
+      ],
+      "to": [
+        12,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#curtain"
+        },
+        "south": {
+          "texture": "#curtain"
+        },
+        "east": {
+          "texture": "#curtain"
+        },
+        "west": {
+          "texture": "#curtain"
+        },
+        "up": {
+          "texture": "#curtain"
+        },
+        "down": {
+          "texture": "#curtain"
+        }
+      }
+    },
+    {
+      "from": [
+        12,
+        0,
+        12
+      ],
+      "to": [
+        16,
+        16,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#curtain"
+        },
+        "south": {
+          "texture": "#curtain"
+        },
+        "east": {
+          "texture": "#curtain"
+        },
+        "west": {
+          "texture": "#curtain"
+        },
+        "up": {
+          "texture": "#curtain"
+        },
+        "down": {
+          "texture": "#curtain"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        11.9
+      ],
+      "to": [
+        16,
+        5,
+        11.9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#fringe"
+        },
+        "south": {
+          "texture": "#fringe"
+        }
+      }
+    }
+  ]
+}

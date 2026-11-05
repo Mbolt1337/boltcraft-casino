@@ -1,0 +1,273 @@
+# Architecture of the casino buildings, drawn by hand. Light from the top left.
+#
+# Gilded panel: red lacquer framed in gold. A panel joins the panels around it on the same face, so the gold
+# frame only runs round the outside of a whole field of them: base, then an edge strip for every side with
+# no panel beside it, then the mitred corner where two framed sides meet.
+
+@texture build/art/scratch_panel_tiles.png 64 64
+@tile panel_base 0 0
+tttttttttttttttt
+ttttttttuttttttt
+tttttttttttttttt
+ttsttttttttttttt
+tttttttttttttstt
+tttttttttttttttt
+ttttttuttttttttt
+tttttttttttttttt
+tttttttttttstttt
+tutttttttttttttt
+tttttttttttttttt
+ttttttttsttttttt
+tttttttttttttutt
+ttttsttttttttttt
+tttttttttttttttt
+tttttttttsttttts
+
+@tile edge_top 16 0
+ffffffffffffffff
+dddddddddddddddd
+rrrrrrrrrrrrrrrr
+
+@tile edge_left 32 0
+fdr
+fdr
+fdr
+fdr
+fdr
+fdr
+fdr
+fdr
+fdr
+fdr
+fdr
+fdr
+fdr
+fdr
+fdr
+fdr
+
+@tile edge_bottom 16 16
+uuuuuuuuuuuuuuuu
+cccccccccccccccc
+bbbbbbbbbbbbbbbb
+
+@tile edge_right 48 0
+ucb
+ucb
+ucb
+ucb
+ucb
+ucb
+ucb
+ucb
+ucb
+ucb
+ucb
+ucb
+ucb
+ucb
+ucb
+ucb
+
+@tile corner_tl 0 32
+fff
+fdd
+fdr
+
+@tile corner_tr 4 32
+ffb
+dcb
+ucb
+
+@tile corner_bl 8 32
+fdu
+fcc
+bbb
+
+@tile corner_br 12 32
+ucb
+ccb
+bbb
+
+# Dark stone, honed: the plain faces of cornices and the tops of parapets.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/dark_stone.png 16 16
+@tile dark_stone 0 0
+3333333333333332
+3222222222222221
+3222222232222221
+3222222222222221
+3223222222222221
+3222222222222221
+3222222222222321
+3222222222222221
+3222222222222221
+3222232222222221
+3222222222222221
+3222222222222221
+3222222222232221
+3222222222222221
+3222222222222221
+2111111111111110
+
+# Cornice: a gold molding along the top, its shadow under it, honed dark stone, a thin gold bead below.
+# Laid in a row it draws an unbroken gold line along the building.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_cornice.png 16 16
+@tile gilded_cornice 0 0
+ffffffffffffffff
+eeeeeeeeeeeeeeee
+dededededededede
+bbbbbbbbbbbbbbbb
+0000000000000000
+2222222222222222
+2222222322222222
+2222222222222222
+2232222222222222
+2222222222222322
+2222222222222222
+2222222222222222
+1111111111111111
+dddddddddddddddd
+bbbbbbbbbbbbbbbb
+0000000000000000
+
+# Coffered ceiling, seen from below: dark wood beams, a gold bead, a sunken red coffer and a gold rosette.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/coffer.png 16 16
+@tile coffer 0 0
+yyyyyyyyyyyyyyyx
+yxxxxxxxxxxxxxxw
+yxdddddddddddcxw
+yxdrrrrrrrrrrcxw
+yxdrsssssssstcxw
+yxdrsttttttttcxw
+yxdrsttteetttcxw
+yxdrstteddctttxw
+yxdrsttedcctttxw
+yxdrstttcctttcxw
+yxdrsttttttttcxw
+yxdrsttttttttcxw
+yxdrtttttttttcxw
+yxdcccccccccccxw
+yxxxxxxxxxxxxxxw
+xwwwwwwwwwwwwwww
+
+# Stair runner: burgundy carpet held by a brass rod at the edge of the tread.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/carpet_runner.png 16 16
+@tile carpet_runner 0 0
+eeeeeeeeeeeeeeee
+cccccccccccccccc
+uuuuuuuuuuuuuuuu
+tttttttttttttttt
+ttsttttttttsttts
+tttttttttttttttt
+tttttutttttttttt
+tttttttttttttttt
+tsttttttttsttttt
+tttttttttttttttt
+tttttttttuttttst
+tttttttttttttttt
+ttttsttttttttttt
+tttttttttttttttt
+ssssssssssssssss
+rrrrrrrrrrrrrrrr
+
+# Lantern glass lit from inside: warm white at the flame, amber at the panes' gold edges.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/lantern_glass.png 16 16
+@tile lantern_glass 0 0
+eeeeeeeeeeeeeeee
+efffffffffffffde
+effggggggggggfde
+efggggggggggggde
+efggggggggggggde
+efggggggggggggde
+efggggggggggggde
+efggggggggggggde
+efggggggggggggde
+efggggggggggggde
+efggggggggggggde
+efggggggggggggde
+efggggggggggggde
+effggggggggggfde
+efffffffffffffde
+eddddddddddddddd
+
+
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_0000.png 16 16
+@copy panel_base 0 0
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_0001.png 16 16
+@copy panel_base 0 0
+@copy edge_right 13 0
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_0010.png 16 16
+@copy panel_base 0 0
+@copy edge_bottom 0 13
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_0011.png 16 16
+@copy panel_base 0 0
+@copy edge_bottom 0 13
+@copy edge_right 13 0
+@copy corner_br 13 13
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_0100.png 16 16
+@copy panel_base 0 0
+@copy edge_left 0 0
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_0101.png 16 16
+@copy panel_base 0 0
+@copy edge_left 0 0
+@copy edge_right 13 0
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_0110.png 16 16
+@copy panel_base 0 0
+@copy edge_left 0 0
+@copy edge_bottom 0 13
+@copy corner_bl 0 13
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_0111.png 16 16
+@copy panel_base 0 0
+@copy edge_left 0 0
+@copy edge_bottom 0 13
+@copy edge_right 13 0
+@copy corner_bl 0 13
+@copy corner_br 13 13
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_1000.png 16 16
+@copy panel_base 0 0
+@copy edge_top 0 0
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_1001.png 16 16
+@copy panel_base 0 0
+@copy edge_top 0 0
+@copy edge_right 13 0
+@copy corner_tr 13 0
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_1010.png 16 16
+@copy panel_base 0 0
+@copy edge_top 0 0
+@copy edge_bottom 0 13
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_1011.png 16 16
+@copy panel_base 0 0
+@copy edge_top 0 0
+@copy edge_bottom 0 13
+@copy edge_right 13 0
+@copy corner_tr 13 0
+@copy corner_br 13 13
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_1100.png 16 16
+@copy panel_base 0 0
+@copy edge_top 0 0
+@copy edge_left 0 0
+@copy corner_tl 0 0
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_1101.png 16 16
+@copy panel_base 0 0
+@copy edge_top 0 0
+@copy edge_left 0 0
+@copy edge_right 13 0
+@copy corner_tl 0 0
+@copy corner_tr 13 0
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_1110.png 16 16
+@copy panel_base 0 0
+@copy edge_top 0 0
+@copy edge_left 0 0
+@copy edge_bottom 0 13
+@copy corner_tl 0 0
+@copy corner_bl 0 13
+@texture src/main/resources/assets/boltcraft_casino/textures/block/architecture/gilded_panel_1111.png 16 16
+@copy panel_base 0 0
+@copy edge_top 0 0
+@copy edge_left 0 0
+@copy edge_bottom 0 13
+@copy edge_right 13 0
+@copy corner_tl 0 0
+@copy corner_tr 13 0
+@copy corner_bl 0 13
+@copy corner_br 13 13

@@ -1,0 +1,30 @@
+{
+  "parent": "boltcraft_casino:casino/first_chips",
+  "criteria": {
+    "first_spin": {
+      "conditions": {
+        "event": "first_spin"
+      },
+      "trigger": "boltcraft_casino:casino"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.boltcraft_casino.first_spin.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "boltcraft_casino:slot_machine"
+    },
+    "title": {
+      "translate": "advancements.boltcraft_casino.first_spin.title"
+    }
+  },
+  "requirements": [
+    [
+      "first_spin"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

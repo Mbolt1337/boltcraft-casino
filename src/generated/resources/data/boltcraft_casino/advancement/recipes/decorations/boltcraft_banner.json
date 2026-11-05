@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_banner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_banner"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "boltcraft_casino:boltcraft_banner"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_red_banner"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "boltcraft_casino:boltcraft_banner"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+# Sprites of the roulette betting screen, drawn to read like the felt of the table: cream lines between red, black
+# and green boxes. Cells are nine-sliced with a one pixel border (see the .mcmeta files next to the PNGs).
+# Light from the top left.
+
+# Cream lines of the layout, behind the cells.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/roulette/field.png 8 8
+@tile field 0 0
+CCCCCCCC
+CCCCCCCK
+CCCCCCCK
+CCCCCCCK
+CCCCCCCK
+CCCCCCCK
+CCCCCCCK
+CKKKKKKK
+
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/roulette/cell_red.png 8 8
+@tile cell 0 0
+PPPPPPPR
+PRRRRRRQ
+PRRRRRRQ
+PRRRRRRQ
+PRRRRRRQ
+PRRRRRRQ
+PRRRRRRQ
+RQQQQQQQ
+
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/roulette/cell_black.png 8 8
+@recolor cell 0 0 PRQ 310
+
+# Boxes on bare felt: dozens and the even-money bets other than red and black.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/roulette/cell_felt.png 8 8
+@recolor cell 0 0 PRQ USJ
+
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/roulette/cell_zero.png 8 8
+@recolor cell 0 0 PRQ GHJ
+
+# Gold frame around the cell under the cursor.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/roulette/cell_hover.png 8 8
+@tile cell_hover 0 0
+gffffffe
+f......d
+f......d
+f......d
+f......d
+f......d
+f......d
+eddddddd
+
+# The last result: a pocket-coloured disc in a gold rim, the number written over it. Empty before the first spin.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/roulette/result_red.png 18 18
+@tile result 0 0
+......ffffee......
+....fffffeeeee....
+...ffePPPPRReed...
+..ffePPRRRRRRedd..
+.ffePRRRRRRRRRedd.
+.fePRRRRRRRRRRRdd.
+fePRRRRRRRRRRRRRdc
+fePRRRRRRRRRRRRRdc
+eeRRRRRRRRRRRRRRdc
+eeRRRRRRRRRRRRRQdc
+edRRRRRRRRRRRRRQcc
+edRRRRRRRRRRRRQQcc
+.edRRRRRRRRRRQQcc.
+.eddRRRRRRRQQQccb.
+..dddRRRRQQQQcbb..
+...ddcQQQQQQcbb...
+....dccccccccb....
+......cccbbb......
+
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/roulette/result_black.png 18 18
+@recolor result 0 0 PRQ 310
+
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/roulette/result_zero.png 18 18
+@recolor result 0 0 PRQ GHJ
+
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/roulette/result_none.png 18 18
+@recolor result 0 0 PRQ 421
+
+# A red chip marking the boxes that already hold a bet.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/roulette/chip_marker.png 5 5
+@tile chip_marker 0 0
+.qqq.
+qPRRq
+qRCQq
+qRQQq
+.qqq.

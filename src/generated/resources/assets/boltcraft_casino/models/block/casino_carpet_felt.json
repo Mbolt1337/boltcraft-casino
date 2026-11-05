@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "boltcraft_casino:block/decor/carpet_felt"
+  }
+}

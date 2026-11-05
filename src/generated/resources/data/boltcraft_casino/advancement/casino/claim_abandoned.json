@@ -1,0 +1,30 @@
+{
+  "parent": "boltcraft_casino:casino/own_vault",
+  "criteria": {
+    "claim_abandoned": {
+      "conditions": {
+        "event": "claim_abandoned"
+      },
+      "trigger": "boltcraft_casino:casino"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.boltcraft_casino.claim_abandoned.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "boltcraft_casino:cashier"
+    },
+    "title": {
+      "translate": "advancements.boltcraft_casino.claim_abandoned.title"
+    }
+  },
+  "requirements": [
+    [
+      "claim_abandoned"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

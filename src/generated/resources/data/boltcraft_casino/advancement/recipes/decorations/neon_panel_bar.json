@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_neon_letter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "boltcraft_casino:neon_letter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "boltcraft_casino:neon_panel_bar"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_neon_letter"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "boltcraft_casino:neon_panel_bar"
+    ]
+  }
+}

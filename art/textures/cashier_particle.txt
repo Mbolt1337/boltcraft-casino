@@ -1,0 +1,19 @@
+# Breaking particles of the cashier: dark wood with the gold-edged counter top.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/cashier_particle.png 16 16
+@tile particle 0 0
+feeeeeeeeeeeeeed
+xxxxxxxxxxxxxxxw
+zeddddddddddddcx
+zdvuuuuuuuuuutbx
+zduttttttttttsbx
+zdutttttttttssbx
+zdtssssssssssrbx
+zcbbbbbbbbbbbbax
+zyyyyyyyyyyyyyyx
+zywxxxxyxxxxxzyx
+zywxxxxxxxyxxzyx
+zywxyxxxxxxxxzyx
+zywzzzzzzzzzzzyx
+zyyyyyyyyyyyyyyx
+xxxxxxxxxxxxxxxw
+wwwwwwwwwwwwwwww

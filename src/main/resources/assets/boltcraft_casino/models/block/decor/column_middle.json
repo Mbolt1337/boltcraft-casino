@@ -1,0 +1,44 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "shaft": "boltcraft_casino:block/decor/column_shaft",
+    "trim": "boltcraft_casino:block/decor/column_trim",
+    "marble": "boltcraft_casino:block/decor/marble",
+    "gold": "boltcraft_casino:block/decor/gold",
+    "particle": "boltcraft_casino:block/decor/marble"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        16,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#shaft"
+        },
+        "south": {
+          "texture": "#shaft"
+        },
+        "east": {
+          "texture": "#shaft"
+        },
+        "west": {
+          "texture": "#shaft"
+        },
+        "up": {
+          "texture": "#marble"
+        },
+        "down": {
+          "texture": "#marble"
+        }
+      }
+    }
+  ]
+}

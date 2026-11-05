@@ -1,0 +1,30 @@
+{
+  "parent": "boltcraft_casino:casino/first_chips",
+  "criteria": {
+    "roulette_bet": {
+      "conditions": {
+        "event": "roulette_bet"
+      },
+      "trigger": "boltcraft_casino:casino"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.boltcraft_casino.roulette_bet.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "boltcraft_casino:roulette_table"
+    },
+    "title": {
+      "translate": "advancements.boltcraft_casino.roulette_bet.title"
+    }
+  },
+  "requirements": [
+    [
+      "roulette_bet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

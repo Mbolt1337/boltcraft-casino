@@ -1,0 +1,361 @@
+# Roulette table, 128x128 atlas for models/roulette_table.bbmodel (GeckoLib, 2x2 blocks). Light from the top left.
+# Same family as the vault, cashier and slot machine: dark wood cabinet with velvet panels in gold frames, a
+# burgundy padded rail, deep green felt. Tiles marked rot180 are tops, drawn as a player at the front sees them:
+# first row at the back (the croupier's side), first column on the player's left.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/roulette_table.png 128 128
+
+# Felt top of the table. Back half: the wheel sits in the middle, the croupier's chip rack and the marker in the
+# corners. Front half: the betting layout of a European table, 0 on the left, then twelve columns of three
+# numbers (3-6-9 row at the back, 1-4-7 row in front), the three dozens marked I, II, III and the even-money
+# boxes 1-18, even, red, black, odd, 19-36. Cream lines, real red and black order.
+@tile felt_top 0 0 rot180
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJJJJJJJJSSSSSSSSSSSSJJJJJJJJSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSJSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSCCCCCCCCCCCCCCCCCCCCCCCCCCCCSS
+SSCGHCPR31PRPR31PRPR31PRPR31PRSS
+SSCHHCRR11RRRR11RRRR11RRRR11RRSS
+SSCHHC31PR3131PR3131PR3131PR31SS
+SSCHHC11RR1111RR1111RR1111RR11SS
+SSCHHCPR31PR3131PRPR31PR3131PRSS
+SSCHHCRR11RR1111RRRR11RR1111RRSS
+SSCCCCCCCCCCCCCCCCCCCCCCCCCCCCSS
+SSJSSCSSSCSSSCSSCSCSSCSCSCSCSCSS
+SSJSSCSSSKSSSCSSKSKSSCSKSKSKSCSS
+SSJSSCCCCCCCCCCCCCCCCCCCCCCCCCSS
+SSJSSCSSSCSSSCPRRC311CSSSCSSSCSS
+SSJSSCSSSCSSSCRRQC110CSSSCSSSCSS
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+# Underside of the table top; only its edge shows past the cabinet.
+@tile underside 32 0
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Apron under the table top, y 11 down to 6: shadow, gold line, velvet band, gold line. The front one carries a
+# gold-rimmed red chip as the table's emblem.
+@tile apron_side 64 0
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+eddddddddddddddddddddddddddddc
+duuuuuuuuuuuuuuuuuuuuuuuuuuuuc
+dttttttttttttttttttttttttttttc
+cccccccccccccccccccccccccccccb
+
+@tile apron_front 64 5
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+eddddddddddddeffdddddddddddddc
+duuuuuuuuuuuufPRcuuuuuuuuuuuuc
+dttttttttttttdRQcttttttttttttc
+cccccccccccccdccbccccccccccccb
+
+@tile apron_inner 64 10
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Legs, y 11 down to 0: hidden behind the apron down to y 6, then a gold collar, dark wood lit from the left, a
+# gold ring and foot.
+@tile leg_side 64 15
+xxxw
+xxxw
+xxxw
+xxxw
+xxxw
+dddc
+yyxw
+yyxw
+yxxw
+dddc
+eddc
+
+@tile leg_end 68 26
+xxxx
+xwwx
+xwwx
+xxxx
+
+@tile leg_foot 72 26
+dddd
+deed
+deed
+dddd
+
+# Edge strips. The table edge under the rail: wood, then a gold band.
+@tile slab_side 96 0
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+cccccccccccccccccccccccccccccccc
+
+# Padded velvet rail: top, outer side, side facing the felt, ends.
+@tile rail_top 96 2
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+
+@tile rail_outer 96 4
+tttttttttttttttttttttttttttttttt
+ssssssssssssssssssssssssssssssss
+
+@tile rail_inner 96 6
+ssssssssssssssssssssssssssssssss
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+
+# Side of the wheel bowl, y 15 down to 13: a brass band, then dark polished wood.
+@tile bowl_side 96 9
+dddddddddddddddd
+xxxxxxxxxxxxxxxx
+
+@tile rail_end 112 9
+vu
+ts
+
+# Top of the side rails, which run from the front to the back.
+@tile rail_top_v 124 12
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+vu
+
+# Rim of the round wheel bowl seen from above: polished wood, light on its back left.
+@tile bowl_top 0 32 rot180
+.....ZZzzzz.....
+...ZZ......zz...
+..ZZ........zy..
+.ZZ..........yy.
+.Z............y.
+Z..............y
+Z..............y
+z..............y
+z..............x
+z..............x
+z..............x
+.z............x.
+.zz..........xx.
+..yz........xx..
+...yy......xx...
+.....yyxxxx.....
+
+# Ball track inside the bowl: cream wood with eight gold deflectors.
+@tile track 16 32 rot180
+................
+.....WWdCCC.....
+....WW....CC....
+...d........d...
+..W..........C..
+.WW..........CC.
+.W............C.
+.d............C.
+.C............d.
+.C............K.
+.CC..........KK.
+..C..........K..
+...d........d...
+....CC....KK....
+.....CCCdKK.....
+................
+
+# Spinning wheel head: the 37 pockets in European wheel order clockwise from the green 0 at the back, a gold
+# fret ring inside them and the wooden cone. No baked light, because it turns.
+@tile head 32 32 rot180
+...1R1HR1...
+..ReeeeeR1..
+.1eZZZZZeeR.
+1ReZZZZZZe1R
+ReZZZZZZZZe1
+1eZZZZZZZZeR
+ReZZZZZZZZe1
+1eZZZZZZZZeR
+R1eZZZZZZZe1
+.ReZZZZZeeR.
+..1eeeeeR1..
+...R1R1R1...
+
+# Cone, gold collar and the cross-shaped turret the croupier spins the wheel by.
+@tile cone_top 44 32
+yyyyyy
+yzzzzy
+yzZZzy
+yzZZzy
+yzzzzy
+yyyyyy
+
+@tile cone_side 44 38
+zzzzzz
+
+@tile collar_top 50 32
+dddd
+deed
+deed
+dddd
+
+@tile collar_side 50 36
+cccc
+
+@tile post_top 54 32
+ff
+ff
+
+@tile post_side 56 32
+ed
+dc
+
+@tile turret_arm 44 40
+deeeed
+
+@tile ball 58 32
+W
+
+# The croupier's chip rack: a wooden tray with four tubes of chips lying on their edges.
+@tile rack_top 0 48 rot180
+zyyyyz
+yxxxxy
+yxxxxy
+yxxxxy
+yxxxxy
+yxxxxy
+yxxxxy
+zyyyyz
+
+@tile rack_side 6 48
+yyyyyyyy
+
+# Tops of the tubes, one column per colour: white 1, red 10, blue 100, black 1000 with gold spots.
+@tile rack_chips_top 14 48
+WRB4
+CQNe
+WRB4
+CQNe
+WRB4
+CQNe
+WRB4
+
+@tile rack_chips_side 18 48
+WCWCWCW
+RQRQRQR
+BNBNBNB
+4e4e4e4
+
+@tile rack_chips_end 25 48
+WRB4
+
+# The marker the croupier sets on the winning number: a crystal on a gold foot.
+@tile marker_foot 30 48
+d
+
+@tile marker_foot_top 31 48
+e
+
+@tile marker_crystal 32 48
+D
+
+@tile marker_crystal_top 33 48
+W
+
+# Same underside and turret pixels in vertical strips: GeckoLib 4 expects geometry 1.12 without uv_rotation.
+@tile apron_underside_v 96 32
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+@tile turret_arm_v 98 32
+d
+e
+e
+e
+e
+d

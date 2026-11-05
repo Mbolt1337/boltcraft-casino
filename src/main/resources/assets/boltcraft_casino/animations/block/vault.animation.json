@@ -1,0 +1,137 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.vault.open": {
+      "loop": "hold_on_last_frame",
+      "animation_length": 0.8,
+      "bones": {
+        "door": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.3": [
+              0,
+              0,
+              0
+            ],
+            "0.5": [
+              0,
+              -55,
+              0
+            ],
+            "0.68": [
+              0,
+              -92,
+              0
+            ],
+            "0.8": [
+              0,
+              -100,
+              0
+            ]
+          }
+        },
+        "dial": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.35": [
+              0,
+              0,
+              -180
+            ]
+          }
+        }
+      }
+    },
+    "animation.vault.close": {
+      "animation_length": 0.8,
+      "bones": {
+        "door": {
+          "rotation": {
+            "0": [
+              0,
+              -100,
+              0
+            ],
+            "0.3": [
+              0,
+              -45,
+              0
+            ],
+            "0.5": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "dial": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              -180
+            ],
+            "0.5": [
+              0,
+              0,
+              -180
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.vault.open_idle": {
+      "loop": true,
+      "animation_length": 0.05,
+      "bones": {
+        "door": {
+          "rotation": [
+            0,
+            -100,
+            0
+          ]
+        },
+        "dial": {
+          "rotation": [
+            0,
+            0,
+            -180
+          ]
+        }
+      }
+    },
+    "animation.vault.closed": {
+      "loop": true,
+      "animation_length": 0.05,
+      "bones": {
+        "door": {
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "dial": {
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}

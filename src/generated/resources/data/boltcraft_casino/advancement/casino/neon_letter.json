@@ -1,0 +1,35 @@
+{
+  "parent": "boltcraft_casino:casino/root",
+  "criteria": {
+    "neon_letter": {
+      "conditions": {
+        "location": [
+          {
+            "block": "boltcraft_casino:neon_letter",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.boltcraft_casino.neon_letter.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "boltcraft_casino:neon_letter"
+    },
+    "title": {
+      "translate": "advancements.boltcraft_casino.neon_letter.title"
+    }
+  },
+  "requirements": [
+    [
+      "neon_letter"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

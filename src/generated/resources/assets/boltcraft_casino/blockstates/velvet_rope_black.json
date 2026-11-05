@@ -1,0 +1,44 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_rope_post"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_rope_side_black"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_rope_side_black",
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_rope_side_black",
+        "y": 180
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/velvet_rope_side_black",
+        "y": 270
+      },
+      "when": {
+        "west": "true"
+      }
+    }
+  ]
+}

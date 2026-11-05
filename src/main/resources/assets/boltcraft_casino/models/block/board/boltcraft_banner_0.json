@@ -1,0 +1,74 @@
+{
+ "parent": "block/block",
+ "render_type": "minecraft:cutout",
+ "textures": {
+  "cloth": "boltcraft_casino:block/board/boltcraft_banner_0",
+  "halo": "boltcraft_casino:block/board/boltcraft_banner_halo_0",
+  "gold": "boltcraft_casino:block/decor/gold",
+  "tube": "boltcraft_casino:block/neon/tube",
+  "particle": "boltcraft_casino:block/board/boltcraft_banner_0"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0,
+    15
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#cloth",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "south": {
+     "texture": "#cloth",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "cullface": "south"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    0,
+    14.9
+   ],
+   "to": [
+    16,
+    16,
+    14.9
+   ],
+   "faces": {
+    "north": {
+     "texture": "#halo",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    }
+   },
+   "shade": false,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15
+   }
+  }
+ ]
+}

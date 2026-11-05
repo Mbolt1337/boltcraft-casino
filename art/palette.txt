@@ -1,0 +1,86 @@
+# BoltCraft Casino palette, PROMPT.md section 8.1 plus hand-picked ramps.
+# One character per color. '.' is always transparent.
+# Light comes from the top left: higher digits and later letters are brighter.
+
+# Steel: vault, frames, machine bodies
+# One step brighter than the palette's #1E1E24 / #2E2E36, which read as black under in-game shading.
+0 #16161C deepest shadow, gaps
+1 #1E1E24 shadow (palette dark steel)
+2 #26262E
+3 #2E2E36 (palette mid steel)
+4 #383842 mid steel
+5 #454551
+6 #575764 lit edge
+7 #70707E rivet and edge highlight
+8 #8E8E9E specular
+
+# Gold and brass
+a #5E4612 deep shadow
+b #8A6A1E shadow (palette)
+c #B08A2C
+d #D4A537 gold (palette)
+e #E6BE55
+f #F2D27A highlight (palette)
+g #FFF0B8 specular
+
+# Velvet
+r #4A0A14 shadow (palette)
+s #5E0E1A
+t #7A1020 velvet (palette)
+u #962033
+v #B03045 highlight
+
+# Dark wood
+w #24160D
+x #3B2416 wood (palette)
+y #5A3820 wood light (palette)
+z #74492A
+Z #8C5C36 wood highlight
+
+# Chips, gems and plants
+W #FBF8EE white chip light
+C #E8E2C8 cream (palette marking)
+K #B9B29A cream shadow
+k #6E6858 white chip outline
+P #E35A6E red chip light
+R #C73047 chip red
+Q #8E1A2C chip red shadow
+q #55101C red chip outline
+L #62A9E0 blue chip light
+B #307DBA chip blue
+N #1C4F7A chip blue shadow
+n #0F2C48 blue chip outline
+D #9FF2EA diamond light
+E #3AB6B0 diamond
+G #4DDB82 emerald
+H #1E8A44 emerald shadow, leaf shade
+o #124A26 deep leaf shadow
+p #33B062 leaf
+
+# Neon (PROMPT.md 8.1); glowing parts also go into the glowmask texture
+T #2EE6FF neon cyan
+A #1A9FB5 neon cyan shadow
+M #FF3EA5 neon pink
+F #B8287A neon pink shadow
+Y #FFE14D neon yellow, lemon
+O #C9A400 lemon shadow
+V #4DFF88 neon green
+
+# Translucent shade, #RRGGBBAA: darkens what lies under it, such as the curved edges of a reel on screen
+% #0E0E1499 shade 60%
+& #0E0E1466 shade 40%
+= #0E0E1433 shade 20%
+
+# Roulette felt: deliberately drawn seams and worn highlights, not generated noise
+I #072D20 deep felt shadow
+J #0A4230 felt shadow
+S #0E5A3A green felt (palette)
+U #20754F felt highlight
+X #3C9366 soft felt edge
+
+# Croupier villager skin: warm light from the upper left
+h #593C2B deepest skin shadow
+i #80543A skin shadow
+j #A66F4B skin midtone
+l #C58E63 skin light
+m #E0AB7F skin highlight

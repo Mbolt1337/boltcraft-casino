@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:brick"
+    }
+  },
+  "pattern": [
+    "B B",
+    " B "
+  ],
+  "result": {
+    "count": 4,
+    "id": "boltcraft_casino:ceramic_cup"
+  }
+}

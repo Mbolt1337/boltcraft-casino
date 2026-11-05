@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "boltcraft_casino:block/checkered_tile_slab"
+    },
+    "type=double": {
+      "model": "boltcraft_casino:block/checkered_tiles"
+    },
+    "type=top": {
+      "model": "boltcraft_casino:block/checkered_tile_slab_top"
+    }
+  }
+}

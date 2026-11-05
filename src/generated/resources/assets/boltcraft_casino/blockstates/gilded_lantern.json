@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "boltcraft_casino:block/architecture/gilded_lantern"
+    },
+    "hanging=true": {
+      "model": "boltcraft_casino:block/architecture/gilded_lantern_hanging"
+    }
+  }
+}

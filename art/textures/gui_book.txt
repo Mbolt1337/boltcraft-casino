@@ -1,0 +1,166 @@
+# The guide book: its screen sprites (nine-sliced by the .mcmeta next to each PNG) and its item icon.
+# A burgundy leather cover tooled with a gold line and corner studs, cream pages with the stacked page edges on
+# the outside and a shadow towards the spine. Light from the top left.
+
+# Cover, border 9: the corners hold the studs, the middle repeats under the pages.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/book_cover.png 32 32
+@tile book_cover 0 0
+00000000000000000000000000000000
+0uuuuuuuuuuuuuuuuuuuuuuuuuuuuus0
+0ussssssssssssssssssssssssssssr0
+0ussssssssssssssssssssstssssssr0
+0usseeeeeeeeeeeeeeeeeeeeeeedssr0
+0ussessssssstsssssssssssssscssr0
+0ussesbdbssssssssssssssbdbscssr0
+0ussesdfdssssssssssssssdfdscssr0
+0ustesbdbssssssssssssssbdbscssr0
+0ussesssssssssssstssssssssscssr0
+0ussesssssssssssssssssssssscssr0
+0ussesssssstssssssssssssssscssr0
+0ussesssssssssssssssssssssscssr0
+0ussesstssssssssssssssssssscssr0
+0ussessssssssssssssssstsssscssr0
+0ussessssssssssstsssssssssscssr0
+0ussesssssssssssssssssssssscssr0
+0ussesssssssssssssssssssssscssr0
+0ussesssssssssssssssssssssscssr0
+0ussessssssssssssssstsssssscssr0
+0ussesssstssssssssssssssssscssr0
+0ussesssssssssssssssssssssscssr0
+0ussesssssssssssssssssssssscssr0
+0ussesbdbssssssssssssssbdbscssr0
+0ussesdfdssssssssssssssdfdscssr0
+0ussesbdbssssstssssssssbdbscssr0
+0ussesssssssssssssssssssssscssr0
+0ussdccccccccccccccccccccccctsr0
+0ussstssssssssssssssssssssssssr0
+0ussssssssssssssssssssssssssssr0
+0srrrrrrrrrrrrrrrrrrrrrrrrrrrrr0
+00000000000000000000000000000000
+
+# Left page, border 6: page edges stacked on the left, a soft shade towards the spine on the right.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/book_page_left.png 32 32
+@tile book_page_left 0 0
+KCKCCCCCCCCCCCCCCCCCCCCCCCCCCCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWCWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWCWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWCWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWCWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWCWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWCWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWCWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWCWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWCWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWCWWWWWWWWWWWCCK
+KCKCWWWWWWWWWWWWWWWWWWWWWWWWWCCK
+KCKCKKKKKKKKKKKKKKKKKKKKKKKKKCCK
+
+# The right page is the left one seen in a mirror.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/book_page_right.png 32 32
+@flip book_page_left 0 0
+
+# A crafting slot pressed into the paper: shadow on the top and left, a lit lip on the bottom and right.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/book_slot.png 18 18
+@tile book_slot 0 0
+KKKKKKKKKKKKKKKKKC
+KkkkkkkkkkkkkkkkkW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+KkCCCCCCCCCCCCCCCW
+CWWWWWWWWWWWWWWWWW
+
+# The arrow between a crafting grid and its result, inked on the page.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/book_arrow.png 16 11
+@tile book_arrow 0 0
+.........k......
+.........kk.....
+.........kKk....
+kkkkkkkkkkKKk...
+kKKKKKKKKKKKKk..
+kKKKKKKKKKKKKKk.
+kKKKKKKKKKKKKk..
+kkkkkkkkkkKKk...
+.........kKk....
+.........kk.....
+.........k......
+
+# Page turn arrows in gold, brighter under the mouse.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/book_next.png 18 10
+@tile book_next 0 0
+..........a.......
+..........aa......
+..........ada.....
+aaaaaaaaaaaeda....
+adeeeeeeeeeeeda...
+acdddddddddddca...
+abbbbbbbbbbbcba...
+aaaaaaaaaaacba....
+..........aba.....
+..........aa......
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/book_next_highlighted.png 18 10
+@tile book_next_lit 0 0
+..........a.......
+..........aa......
+..........afa.....
+aaaaaaaaaaagfa....
+afggggggggggfa....
+aefffffffffffea...
+acccccccccccdca...
+aaaaaaaaaaadca....
+..........aca.....
+..........aa......
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/book_previous.png 18 10
+@flip book_next 0 0
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/book_previous_highlighted.png 18 10
+@flip book_next_lit 0 0
+
+# The guide book item: burgundy leather, gold tooling, a red chip on the cover, page edges on the right.
+@texture src/main/resources/assets/boltcraft_casino/textures/item/guide_book.png 16 16
+@tile guide_book 0 0
+................
+..0000000000000.
+..0ruuuuuuuuuC0.
+..0dudddddddtK0.
+..0rudtttttdtC0.
+..0rtdtRRRtdtK0.
+..0rtdRWRWRdtC0.
+..0rtdWRqRWdtK0.
+..0rtdRWRWRdtC0.
+..0rtdtRRRtdsK0.
+..0rtdtttttdsC0.
+..0rsdddddddsK0.
+..0dssssssssrC0.
+..0rrrrrrrrrrK0.
+..0000000000000.
+................

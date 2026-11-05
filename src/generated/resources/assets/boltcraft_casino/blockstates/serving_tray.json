@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "lowering=0": {
+      "model": "boltcraft_casino:block/hospitality/serving_tray"
+    },
+    "lowering=1": {
+      "model": "boltcraft_casino:block/hospitality/serving_tray_lowered_1"
+    },
+    "lowering=2": {
+      "model": "boltcraft_casino:block/hospitality/serving_tray_lowered_2"
+    },
+    "lowering=3": {
+      "model": "boltcraft_casino:block/hospitality/serving_tray_lowered_3"
+    },
+    "lowering=4": {
+      "model": "boltcraft_casino:block/hospitality/serving_tray_lowered_4"
+    },
+    "lowering=5": {
+      "model": "boltcraft_casino:block/hospitality/serving_tray_lowered_5"
+    },
+    "lowering=6": {
+      "model": "boltcraft_casino:block/hospitality/serving_tray_lowered_6"
+    },
+    "lowering=7": {
+      "model": "boltcraft_casino:block/hospitality/serving_tray_lowered_7"
+    },
+    "lowering=8": {
+      "model": "boltcraft_casino:block/hospitality/serving_tray_lowered_8"
+    }
+  }
+}

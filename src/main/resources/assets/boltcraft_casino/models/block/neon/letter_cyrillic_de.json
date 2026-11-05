@@ -1,0 +1,593 @@
+{
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "halo": "boltcraft_casino:block/neon/cyrillic_de",
+    "tube": "boltcraft_casino:block/neon/tube",
+    "particle": "boltcraft_casino:block/neon/tube_halo"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        15.8
+      ],
+      "to": [
+        16,
+        16,
+        15.8
+      ],
+      "shade": false,
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      },
+      "faces": {
+        "north": {
+          "texture": "#halo",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        11,
+        6,
+        14.8
+      ],
+      "to": [
+        12,
+        7,
+        15.8
+      ],
+      "shade": false,
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      },
+      "faces": {
+        "north": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#tube",
+          "uv": [
+            4,
+            0,
+            6,
+            2
+          ],
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        11,
+        3,
+        14.8
+      ],
+      "to": [
+        12,
+        5,
+        15.8
+      ],
+      "shade": false,
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      },
+      "faces": {
+        "north": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#tube",
+          "uv": [
+            4,
+            0,
+            6,
+            2
+          ],
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        5,
+        14.8
+      ],
+      "to": [
+        12,
+        6,
+        15.8
+      ],
+      "shade": false,
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      },
+      "faces": {
+        "north": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#tube",
+          "uv": [
+            4,
+            0,
+            6,
+            2
+          ],
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        10,
+        7,
+        14.8
+      ],
+      "to": [
+        11,
+        10,
+        15.8
+      ],
+      "shade": false,
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      },
+      "faces": {
+        "north": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#tube",
+          "uv": [
+            4,
+            0,
+            6,
+            2
+          ],
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        9,
+        10,
+        14.8
+      ],
+      "to": [
+        10,
+        13,
+        15.8
+      ],
+      "shade": false,
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      },
+      "faces": {
+        "north": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#tube",
+          "uv": [
+            4,
+            0,
+            6,
+            2
+          ],
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        13,
+        14.8
+      ],
+      "to": [
+        10,
+        14,
+        15.8
+      ],
+      "shade": false,
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      },
+      "faces": {
+        "north": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#tube",
+          "uv": [
+            4,
+            0,
+            6,
+            2
+          ],
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        6,
+        14.8
+      ],
+      "to": [
+        7,
+        13,
+        15.8
+      ],
+      "shade": false,
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      },
+      "faces": {
+        "north": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#tube",
+          "uv": [
+            4,
+            0,
+            6,
+            2
+          ],
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        3,
+        14.8
+      ],
+      "to": [
+        6,
+        5,
+        15.8
+      ],
+      "shade": false,
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      },
+      "faces": {
+        "north": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#tube",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#tube",
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#tube",
+          "uv": [
+            4,
+            0,
+            6,
+            2
+          ],
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

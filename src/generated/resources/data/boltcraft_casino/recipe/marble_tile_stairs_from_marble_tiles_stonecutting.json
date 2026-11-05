@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "boltcraft_casino:marble_tiles"
+  },
+  "result": {
+    "count": 1,
+    "id": "boltcraft_casino:marble_tile_stairs"
+  }
+}

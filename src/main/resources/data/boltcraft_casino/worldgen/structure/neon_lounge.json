@@ -1,0 +1,9 @@
+{
+  "type": "boltcraft_casino:casino",
+  "biomes": "#boltcraft_casino:has_structure/neon_lounge",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_box",
+  "template": "boltcraft_casino:neon_lounge",
+  "max_slope": 6
+}

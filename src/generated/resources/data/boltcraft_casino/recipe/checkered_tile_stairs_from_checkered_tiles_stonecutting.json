@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "boltcraft_casino:checkered_tiles"
+  },
+  "result": {
+    "count": 1,
+    "id": "boltcraft_casino:checkered_tile_stairs"
+  }
+}

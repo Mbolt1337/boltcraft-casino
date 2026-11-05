@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "NSN",
+    "NSN"
+  ],
+  "result": {
+    "count": 4,
+    "id": "boltcraft_casino:gilded_railing"
+  }
+}

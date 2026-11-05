@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    " E",
+    "GG",
+    "G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "boltcraft_casino:manager_key"
+  }
+}

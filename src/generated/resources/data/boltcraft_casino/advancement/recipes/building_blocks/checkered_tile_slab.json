@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_checkered_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "boltcraft_casino:checkered_tiles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "boltcraft_casino:checkered_tile_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_checkered_tiles"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "boltcraft_casino:checkered_tile_slab"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "W": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "pattern": [
+    "NWN",
+    "WWW",
+    "NWN"
+  ],
+  "result": {
+    "count": 5,
+    "id": "boltcraft_casino:wood_wall_panel"
+  }
+}

@@ -1,0 +1,57 @@
+### Gradle ###
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/**/out/
+
+.run/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.eclipse/
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/**/bin/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Minecraft Modding ###
+run/
+run-slot-smoke/
+run-preview/
+run-network/
+!**/src/**/run/
+**/src/generated/**/.cache/
+repo/
+!**/src/**/repo/
+
+tools/
+build-first.log
+.claude/settings.local.json
+
+# GPU shader cache written by the dev client
+NVIDIA Corporation/
+
+# Local Python assembly caches
+__pycache__/
+*.pyc
+
+### Public repository built by publish/export.py ###
+/public/

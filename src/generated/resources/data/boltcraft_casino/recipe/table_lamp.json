@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:lantern"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "pattern": [
+    "RRR",
+    " L ",
+    " N "
+  ],
+  "result": {
+    "count": 1,
+    "id": "boltcraft_casino:table_lamp"
+  }
+}

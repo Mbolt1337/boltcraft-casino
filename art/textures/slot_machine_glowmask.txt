@@ -1,0 +1,31 @@
+# Full-bright parts of the slot machine for GeckoLib's AutoGlowingGeoLayer. Same layout as slot_machine.txt:
+# every pixel here is a copy of the pixel at the same place in the main atlas, everything else is transparent.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/slot_machine_glowmask.png 128 64
+
+@tile marquee_front 53 0
+TTTTTTTTTTTTTT
+MMMM.YYYY.MMMM
+...M....Y....M
+..M....Y....M.
+.M....Y....M..
+
+@tile marquee_side 67 0
+TTTTTTTTTTTTT
+
+@tile bulb_yellow 86 16
+Y
+
+@tile bulb_pink 87 16
+M
+
+@tile button_red 88 16
+PRR
+RQQ
+
+@tile button_yellow 91 16
+WY
+YO
+
+@tile button_green 93 16
+WV
+VH

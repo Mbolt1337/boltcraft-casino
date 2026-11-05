@@ -1,0 +1,30 @@
+{
+  "parent": "boltcraft_casino:casino/straight_up",
+  "criteria": {
+    "zero": {
+      "conditions": {
+        "event": "zero"
+      },
+      "trigger": "boltcraft_casino:casino"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.boltcraft_casino.zero.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "boltcraft_casino:casino_carpet_felt_block"
+    },
+    "title": {
+      "translate": "advancements.boltcraft_casino.zero.title"
+    }
+  },
+  "requirements": [
+    [
+      "zero"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

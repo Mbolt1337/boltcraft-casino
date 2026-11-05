@@ -1,0 +1,19 @@
+# Breaking particles of the roulette table: velvet rail, green felt with a corner of the betting layout, wood.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/roulette_table_particle.png 16 16
+@tile particle 0 0
+vvvvvvvvvvvvvvvv
+uuuuuuuuuuuuuuuu
+SJJJJJJJJJJJJJJS
+SJSSSSSSSSSSSSSS
+SJSCCCCCCCCCCCCS
+SJSCGHCPR31PR31S
+SJSCHHCRR11RR11S
+SJSCHHC31PR31PRS
+SJSCHHC11RR11RRS
+SJSCCCCCCCCCCCCS
+SJSSSSSSSSSSSSSS
+yyyyyyyyyyyyyyyy
+cccccccccccccccc
+wwwwwwwwwwwwwwww
+eddddddddddddddc
+duuuuuuuuuuuuuuc

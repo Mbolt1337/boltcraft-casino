@@ -1,0 +1,260 @@
+# Casino vault, 64x64 atlas for models/vault.bbmodel. Light from the top left.
+# Viewer's left on the front is +X in model space.
+@texture src/main/resources/assets/boltcraft_casino/textures/block/vault.png 64 64
+
+# Front frame around the 10x10 door opening, gold corner caps, two rivets per side.
+@tile front 0 0
+fe6666666666ed
+ec4444444444cb
+64..........52
+64..........52
+67..........72
+62..........32
+64..........52
+64..........52
+64..........52
+67..........72
+62..........32
+64..........52
+ec5555555555dc
+cb2222222222ba
+
+# Side wall, front edge on the left: shadow under the lid, recessed panel, corner bolts.
+@tile side 14 0
+222222222222222
+574444444444473
+541111111111143
+541333333333543
+541344333343543
+541333333333543
+541333344333543
+541333333333543
+541343333333543
+541333333344543
+541333333333543
+541555555555543
+574444444444473
+333333333333333
+
+@tile back 29 0
+22222222222222
+57444444444473
+54111111111143
+54133333333543
+54134433333543
+54133333333543
+54133333443543
+54133333333543
+54133433333543
+54133333334543
+54133333333543
+54155555555543
+57444444444473
+33333333333333
+
+# Back wall of the safe interior; only the centre 10x10 shows through the open door.
+@tile interior 43 0
+22222222222222
+22222222222222
+22000000000022
+22111111111122
+22212222122222
+22212222122222
+22212222122222
+22212222122222
+22212222122222
+22212222122222
+22333333333322
+22333333333322
+22222222222222
+22222222222222
+
+# Inner walls of the opening, front column first.
+@tile recess_side 57 0
+21100
+21100
+21100
+32210
+43221
+43221
+43221
+43221
+43221
+43221
+43221
+43221
+43221
+43221
+
+# Lid: gold rim, steel plate and the BoltCraft lightning bolt.
+@tile cap_top 0 14
+6666666666666665
+6eeeeeeeeeeeeed2
+6e444444444444c2
+6e433333333334c2
+6e434444fec434c2
+6e43444fec4434c2
+6e4344fec44434c2
+6e434ffeeec434c2
+6e434444ec4434c2
+6e43444ec44434c2
+6e4344ec444434c2
+6e434e44444434c2
+6e433333333334c2
+6e444444444444c2
+6dccccccccccccb2
+5222222222222221
+
+# Plinth top; only its outer ring is visible around the body.
+@tile plinth_top 16 14
+eeeeeeeeeeeeeeed
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+eccccccccccccccb
+dbbbbbbbbbbbbbba
+
+# Door: recessed steel slab; the frame lip shades its top and left edge.
+@tile door_front 32 14
+1111111111
+2744444475
+2444444445
+2444444445
+2444444445
+2444444445
+2444444445
+2444444445
+2744444475
+2555555555
+
+# Inside of the door: locking bars and the lock box.
+@tile door_back 42 14
+2222222222
+2444444442
+2466666642
+2433333342
+2434dd4342
+2434cc4342
+2433333342
+2466666642
+2444444442
+1111111111
+
+@tile door_edge_h 52 14
+5555555555
+3333333333
+
+@tile door_edge_v 62 14
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+
+@tile recess_floor 32 24
+5555555555
+4444444444
+3333333333
+2222222222
+2222222222
+
+@tile recess_ceiling 42 24
+1111111111
+0000000000
+0000000000
+0000000000
+0000000000
+
+@tile cap_side 0 30
+feeeeeeeeeeeeeed
+
+@tile plinth_side 0 31
+dccccccccccccccb
+
+# Wheel handle: raised hub, two spokes, knobs at the tips.
+@tile hub 16 30
+efed
+fedc
+edcb
+dcbb
+
+@tile spoke_h 20 30
+ffeeeeed
+cccccccb
+
+@tile spoke_v 28 30
+fc
+ec
+ec
+ec
+ec
+ec
+ec
+db
+
+@tile gold_side 20 32
+dddddddc
+ccccccbb
+
+@tile knob 30 30
+fe
+dc
+
+@tile hinge 32 30
+fe
+ed
+cb
+
+# Vault contents behind the door.
+@tile gold_bars_front 34 30
+fee
+dcb
+
+@tile gold_bars_top 34 32
+ffe
+eed
+
+@tile chips_red 37 30
+RR
+CR
+QQ
+
+@tile chips_blue 39 30
+BB
+CB
+NN
+
+@tile shelf_front 41 30
+eeeeeeeeed
+
+@tile shelf_top 41 31
+dddddddddc
+ccccccccbb
+
+@tile diamonds 51 30
+DE
+EE
+
+# Combination dial: gold rim around a dark face; the knob in the middle is separate geometry.
+@tile dial 54 30
+..ef..
+.f22e.
+e2112d
+e2112c
+.d11c.
+..cb..

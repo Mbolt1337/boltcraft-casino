@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "boltcraft_casino:block/architecture/gilded_panel_1001",
+    "east": "boltcraft_casino:block/architecture/gilded_panel_1110",
+    "north": "boltcraft_casino:block/architecture/gilded_panel_1110",
+    "particle": "boltcraft_casino:block/architecture/gilded_panel_0000",
+    "south": "boltcraft_casino:block/architecture/gilded_panel_1011",
+    "up": "boltcraft_casino:block/architecture/gilded_panel_0011",
+    "west": "boltcraft_casino:block/architecture/gilded_panel_1011"
+  }
+}

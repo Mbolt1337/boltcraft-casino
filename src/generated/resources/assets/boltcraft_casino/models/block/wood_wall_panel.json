@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "boltcraft_casino:block/decor/dark_wood",
+    "side": "boltcraft_casino:block/decor/wood_wall_panel"
+  }
+}

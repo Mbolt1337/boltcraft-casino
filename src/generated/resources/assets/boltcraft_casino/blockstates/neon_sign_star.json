@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "boltcraft_casino:block/neon/sign_star",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "boltcraft_casino:block/neon/sign_star"
+    },
+    "facing=south": {
+      "model": "boltcraft_casino:block/neon/sign_star",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "boltcraft_casino:block/neon/sign_star",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "W": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "pattern": [
+    "NWN",
+    "WWW",
+    "NWN"
+  ],
+  "result": {
+    "count": 5,
+    "id": "boltcraft_casino:velvet_wall_panel"
+  }
+}

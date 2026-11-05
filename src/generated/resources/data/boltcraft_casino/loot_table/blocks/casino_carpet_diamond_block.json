@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "boltcraft_casino:casino_carpet_diamond_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "boltcraft_casino:blocks/casino_carpet_diamond_block"
+}

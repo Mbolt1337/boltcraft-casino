@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "WWW",
+    "WWW"
+  ],
+  "result": {
+    "count": 6,
+    "id": "boltcraft_casino:velvet_curtain"
+  }
+}

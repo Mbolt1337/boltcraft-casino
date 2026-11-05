@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "W": {
+      "item": "minecraft:dark_oak_slab"
+    }
+  },
+  "pattern": [
+    "NQN",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "boltcraft_casino:serving_tray"
+  }
+}

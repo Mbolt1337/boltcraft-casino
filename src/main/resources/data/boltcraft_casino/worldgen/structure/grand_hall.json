@@ -1,0 +1,9 @@
+{
+  "type": "boltcraft_casino:casino",
+  "biomes": "#boltcraft_casino:has_structure/grand_hall",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_box",
+  "template": "boltcraft_casino:grand_hall",
+  "max_slope": 8
+}

@@ -1,0 +1,196 @@
+{
+  "variants": {
+    "down=false,east=false,north=false,south=false,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_000000"
+    },
+    "down=false,east=false,north=false,south=false,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_000100"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_000010"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_000110"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_001000"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_001100"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_001010"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_001110"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_100000"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_100100"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_100010"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_100110"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_101000"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_101100"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_101010"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_101110"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_010000"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_010100"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_010010"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_010110"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_011000"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_011100"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_011010"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_011110"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_110000"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_110100"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_110010"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_110110"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_111000"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_111100"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_111010"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_111110"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_000001"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_000101"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_000011"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_000111"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_001001"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_001101"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_001011"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_001111"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_100001"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_100101"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_100011"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_100111"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_101001"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_101101"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_101011"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_101111"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_010001"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_010101"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_010011"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_010111"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_011001"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_011101"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_011011"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_011111"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_110001"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_110101"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_110011"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_110111"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_111001"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_111101"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=false": {
+      "model": "boltcraft_casino:block/gilded_panel_111011"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=true": {
+      "model": "boltcraft_casino:block/gilded_panel_111111"
+    }
+  }
+}

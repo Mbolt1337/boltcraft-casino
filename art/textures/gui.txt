@@ -1,0 +1,293 @@
+# Screen sprites, nine-sliced by the .mcmeta next to each PNG. Light comes from the top left.
+
+# Panel: dark velvet with buttoned tufting inside a bevelled gold frame. Border 7; the 18x18 middle repeats.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/panel.png 32 32
+@tile panel 0 0
+00000000000000000000000000000000
+0eeeeeeeeeeeeeeeeeeeeeeeeeeeeeb0
+0efddddddddddddddddddddddddddfb0
+0edbbbbbbbbbbbbbbbbbbbbbbbbbecb0
+0edbrrrrrrrrrrrrrrrrrrrrrrrsecb0
+0edbrsssssssssssssssssssssssecb0
+0edbrsssssssssssssssssssssssecb0
+0edbrsstssssstssssstssssssssecb0
+0edbrsssrsssssrsssssrsssssssecb0
+0edbrsssssssssssssssssssssssecb0
+0edbrssssstssssstssssstsssssecb0
+0edbrssssssrsssssrsssssrssssecb0
+0edbrsssssssssssssssssssssssecb0
+0edbrsstssssstssssstssssssssecb0
+0edbrsssrsssssrsssssrsssssssecb0
+0edbrsssssssssssssssssssssssecb0
+0edbrssssstssssstssssstsssssecb0
+0edbrssssssrsssssrsssssrssssecb0
+0edbrsssssssssssssssssssssssecb0
+0edbrsstssssstssssstssssssssecb0
+0edbrsssrsssssrsssssrsssssssecb0
+0edbrsssssssssssssssssssssssecb0
+0edbrssssstssssstssssstsssssecb0
+0edbrssssssrsssssrsssssrssssecb0
+0edbrsssssssssssssssssssssssecb0
+0edbrsssssssssssssssssssssssecb0
+0edbrsssssssssssssssssssssssecb0
+0edbrsssssssssssssssssssssssecb0
+0edbeeeeeeeeeeeeeeeeeeeeeeeeecb0
+0efccccccccccccccccccccccccccfb0
+0ebbbbbbbbbbbbbbbbbbbbbbbbbbbbb0
+00000000000000000000000000000000
+
+# Inset: a dark steel recess pressed into the velvet, for lists, fields and reels. Border 3.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/inset.png 16 16
+@tile inset 0 0
+rrrrrrrrrrrrrrru
+r00000000000003u
+r01111111111113u
+r01111111111113u
+r01111111111113u
+r01111111111113u
+r01111111111113u
+r01111111111113u
+r01111111111113u
+r01111111111113u
+r01111111111113u
+r01111111111113u
+r01111111111113u
+r01111111111113u
+r03333333333333u
+ruuuuuuuuuuuuuuu
+
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/row_hovered.png 16 16
+@tile row_hovered 0 0
+4444444444444444
+4222222222222224
+4222222222222224
+4222222222222224
+4222222222222224
+4222222222222224
+4222222222222224
+4222222222222224
+4222222222222224
+4222222222222224
+4222222222222224
+4222222222222224
+4222222222222224
+4222222222222224
+4222222222222224
+4444444444444444
+
+# Selected row: a gold bar on the left and a thin gold edge around a lighter steel row.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/row_selected.png 16 16
+@tile row_selected 0 0
+edbbbbbbbbbbbbbb
+eda3333333333334
+eda3333333333334
+eda3333333333334
+eda3333333333334
+eda3333333333334
+eda3333333333334
+eda3333333333334
+eda3333333333334
+eda3333333333334
+eda3333333333334
+eda3333333333334
+eda3333333333334
+eda3333333333334
+eda3333333333334
+dcbbbbbbbbbbbbbb
+
+# Button: a velvet plaque in a gold rim. Lit and disabled buttons are the same drawing recolored. Border 4.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/button.png 32 20
+@tile button 0 0
+.000000000000000000000000000000.
+0eeeeeeeeeeeeeeeeeeeeeeeeeeeeeb0
+0edddddddddddddddddddddddddddcb0
+0eduuuuuuuuuuuuuuuuuuuuuuuuutcb0
+0eduttttttttttttttttttttttttscb0
+0eduttttttttttttttttttttttttscb0
+0eduttttttttttttttttttttttttscb0
+0eduttttttttttttttttttttttttscb0
+0eduttttttttttttttttttttttttscb0
+0eduttttttttttttttttttttttttscb0
+0eduttttttttttttttttttttttttscb0
+0eduttttttttttttttttttttttttscb0
+0eduttttttttttttttttttttttttscb0
+0eduttttttttttttttttttttttttscb0
+0eduttttttttttttttttttttttttscb0
+0eduttttttttttttttttttttttttscb0
+0edussssssssssssssssssssssssscb0
+0edcccccccccccccccccccccccccccb0
+0ebbbbbbbbbbbbbbbbbbbbbbbbbbbbb0
+.000000000000000000000000000000.
+
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/button_highlighted.png 32 20
+@recolor button 0 0 edcbuts gfdcvut
+
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/button_disabled.png 32 20
+@recolor button 0 0 edcbuts 6543432
+
+# Pay line across the reels: a neon pink rule with arrow heads pointing in. Border 4 on the left and right.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/payline.png 16 5
+@tile payline 0 0
+M..............M
+MMF..........FMM
+MMMMMMMMMMMMMMMM
+MMF..........FMM
+M..............M
+
+# Gold bezel around the reels on the slot machine screen, dark behind them. Border 4.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/bezel.png 16 16
+@tile bezel 0 0
+0000000000000000
+0eeeeeeeeeeeeeb0
+0edddddddddddcb0
+0edaaaaaaaaaecb0
+0eda00000000ecb0
+0eda00000000ecb0
+0eda00000000ecb0
+0eda00000000ecb0
+0eda00000000ecb0
+0eda00000000ecb0
+0eda00000000ecb0
+0eda00000000ecb0
+0edaeeeeeeeeecb0
+0edcccccccccccb0
+0ebbbbbbbbbbbbb0
+0000000000000000
+
+# Reel on screen: cream, drawn one column wide and stretched across the reel.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/reel.png 1 56
+@tile reel 0 0
+K
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+K
+
+# Laid over the symbols: the reel curves away at the top and bottom.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/reel_shade.png 1 56
+@tile reel_shade 0 0
+%
+%
+%
+&
+&
+&
+=
+=
+=
+=
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+=
+=
+=
+=
+&
+&
+&
+%
+%
+%
+
+# Gold rule between parts of a screen. Border 1 on the left and right.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/divider.png 16 2
+@tile divider 0 0
+deeeeeeeeeeeeeed
+abbbbbbbbbbbbbba
+
+# Chip next to a balance, the red chip seen face on.
+@texture src/main/resources/assets/boltcraft_casino/textures/gui/sprites/chip_icon.png 8 8
+@tile chip_icon 0 0
+..qqqq..
+.qPCCRq.
+qPRQQRRq
+qCQPRQCq
+qCQRRQCq
+qRRQQRQq
+.qRCCQq.
+..qqqq..

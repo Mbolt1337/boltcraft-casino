@@ -1,0 +1,30 @@
+{
+  "parent": "boltcraft_casino:casino/own_vault",
+  "criteria": {
+    "link": {
+      "conditions": {
+        "event": "link"
+      },
+      "trigger": "boltcraft_casino:casino"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.boltcraft_casino.link.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "boltcraft_casino:manager_key"
+    },
+    "title": {
+      "translate": "advancements.boltcraft_casino.link.title"
+    }
+  },
+  "requirements": [
+    [
+      "link"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

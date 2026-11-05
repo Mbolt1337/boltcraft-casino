@@ -1,0 +1,160 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_left"
+      },
+      "when": {
+        "facing": "north",
+        "left": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_right"
+      },
+      "when": {
+        "facing": "north",
+        "right": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_up"
+      },
+      "when": {
+        "facing": "north",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_down"
+      },
+      "when": {
+        "down": "true",
+        "facing": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_left",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "left": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_right",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "right": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_up",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_down",
+        "y": 90
+      },
+      "when": {
+        "down": "true",
+        "facing": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_left",
+        "y": 180
+      },
+      "when": {
+        "facing": "south",
+        "left": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_right",
+        "y": 180
+      },
+      "when": {
+        "facing": "south",
+        "right": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_up",
+        "y": 180
+      },
+      "when": {
+        "facing": "south",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_down",
+        "y": 180
+      },
+      "when": {
+        "down": "true",
+        "facing": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_left",
+        "y": 270
+      },
+      "when": {
+        "facing": "west",
+        "left": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_right",
+        "y": 270
+      },
+      "when": {
+        "facing": "west",
+        "right": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_up",
+        "y": 270
+      },
+      "when": {
+        "facing": "west",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "boltcraft_casino:block/decor/marquee_down",
+        "y": 270
+      },
+      "when": {
+        "down": "true",
+        "facing": "west"
+      }
+    }
+  ]
+}

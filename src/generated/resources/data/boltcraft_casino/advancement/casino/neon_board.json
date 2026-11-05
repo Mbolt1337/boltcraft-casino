@@ -1,0 +1,71 @@
+{
+  "parent": "boltcraft_casino:casino/neon_letter",
+  "criteria": {
+    "neon_panel_bar": {
+      "conditions": {
+        "location": [
+          {
+            "block": "boltcraft_casino:neon_panel_bar",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "neon_panel_boltcraft": {
+      "conditions": {
+        "location": [
+          {
+            "block": "boltcraft_casino:neon_panel_boltcraft",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "neon_panel_jackpot": {
+      "conditions": {
+        "location": [
+          {
+            "block": "boltcraft_casino:neon_panel_jackpot",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "neon_panel_vip": {
+      "conditions": {
+        "location": [
+          {
+            "block": "boltcraft_casino:neon_panel_vip",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.boltcraft_casino.neon_board.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "boltcraft_casino:neon_panel_boltcraft"
+    },
+    "title": {
+      "translate": "advancements.boltcraft_casino.neon_board.title"
+    }
+  },
+  "requirements": [
+    [
+      "neon_panel_boltcraft",
+      "neon_panel_jackpot",
+      "neon_panel_bar",
+      "neon_panel_vip"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

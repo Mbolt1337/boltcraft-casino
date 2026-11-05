@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "T": {
+      "item": "minecraft:red_terracotta"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "TNT",
+    "TTT"
+  ],
+  "result": {
+    "count": 8,
+    "id": "boltcraft_casino:gilded_panel"
+  }
+}

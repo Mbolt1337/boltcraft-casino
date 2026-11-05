@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "boltcraft_casino:item/ceramic_cup"
+  }
+}

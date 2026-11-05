@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "boltcraft_casino:neon_letter"
+    },
+    {
+      "item": "boltcraft_casino:neon_letter"
+    },
+    {
+      "item": "boltcraft_casino:neon_letter"
+    },
+    {
+      "item": "boltcraft_casino:neon_letter"
+    },
+    {
+      "item": "boltcraft_casino:neon_letter"
+    },
+    {
+      "item": "boltcraft_casino:neon_letter"
+    },
+    {
+      "item": "boltcraft_casino:marquee_lights"
+    },
+    {
+      "item": "boltcraft_casino:marquee_lights"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "boltcraft_casino:casino_marquee"
+  }
+}

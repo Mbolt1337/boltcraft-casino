@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "boltcraft_casino:block/architecture/dark_stone",
+    "side": "boltcraft_casino:block/architecture/gilded_cornice",
+    "top": "boltcraft_casino:block/architecture/dark_stone"
+  }
+}

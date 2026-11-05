@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mbolt.casino.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["SeatedHumanoidMixin", "SeatedModelPartMixin"],
+  "injectors": {"defaultRequire": 1}
+}

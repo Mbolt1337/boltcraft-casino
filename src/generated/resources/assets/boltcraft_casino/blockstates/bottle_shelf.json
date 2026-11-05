@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "boltcraft_casino:block/hospitality/bottle_shelf",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "boltcraft_casino:block/hospitality/bottle_shelf"
+    },
+    "facing=south": {
+      "model": "boltcraft_casino:block/hospitality/bottle_shelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "boltcraft_casino:block/hospitality/bottle_shelf",
+      "y": 270
+    }
+  }
+}

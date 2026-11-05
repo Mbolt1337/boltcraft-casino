@@ -1,0 +1,20 @@
+# Brushed gilding on an architectural stone plate. Original BoltCraft gold ramp, light from upper left.
+# A shallow bevel, four recessed fasteners and a worked diagonal highlight; not a solid gold resource block.
+@texture models/gilded_trim.png 16 16
+@tile plate 0 0
+beffffffffffffeb
+egfffffffffffedc
+ffdeeeeeeeeeedcb
+ffedeeeeeeeeedcb
+ffeeeeeeeeeeedcb
+ffeeeeeeeeeedccb
+ffeeeeeeeeeddccb
+ffeeeeeeeeddcccb
+ffeeeeeeeddccccb
+ffeeeeeeddcccccb
+ffeeeeeddccccccb
+ffeeeeddcccccccb
+ffdeedddddddccbb
+feddddddddddcbbb
+edccccccccccbbba
+bcbbbbbbbbbbbaaa

@@ -1,0 +1,34 @@
+name: Bug report
+description: Something in the mod does not work as it should
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Mod, NeoForge and GeckoLib versions, for example 1.0.0 / 21.1.264 / 4.9.3
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - Single player
+        - LAN
+        - Dedicated server
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log or crash report
+      description: Paste latest.log or the crash report, or attach the file.
+      render: text

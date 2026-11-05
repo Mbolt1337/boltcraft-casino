@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "boltcraft_casino:block/hospitality/dining_chair",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "boltcraft_casino:block/hospitality/dining_chair"
+    },
+    "facing=south": {
+      "model": "boltcraft_casino:block/hospitality/dining_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "boltcraft_casino:block/hospitality/dining_chair",
+      "y": 270
+    }
+  }
+}

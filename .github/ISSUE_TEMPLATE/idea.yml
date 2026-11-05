@@ -1,0 +1,11 @@
+name: Idea
+description: A game, a block or a change you would like to see
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What it is and how you would use it in your casino.
+    validations:
+      required: true

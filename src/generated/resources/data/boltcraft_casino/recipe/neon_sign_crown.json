@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "boltcraft_casino:neon_tube"
+    },
+    {
+      "item": "boltcraft_casino:neon_tube"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "boltcraft_casino:neon_sign_crown"
+  }
+}

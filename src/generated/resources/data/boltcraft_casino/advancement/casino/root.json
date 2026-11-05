@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "joined": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "boltcraft_casino:textures/block/decor/velvet.png",
+    "description": {
+      "translate": "advancements.boltcraft_casino.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "boltcraft_casino:chip_1000"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.boltcraft_casino.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "joined"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

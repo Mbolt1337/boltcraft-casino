@@ -1,0 +1,30 @@
+{
+  "parent": "boltcraft_casino:casino/first_spin",
+  "criteria": {
+    "jackpot": {
+      "conditions": {
+        "event": "jackpot"
+      },
+      "trigger": "boltcraft_casino:casino"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.boltcraft_casino.jackpot.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "boltcraft_casino:chip_1000"
+    },
+    "title": {
+      "translate": "advancements.boltcraft_casino.jackpot.title"
+    }
+  },
+  "requirements": [
+    [
+      "jackpot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=east,part=bottom": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_bottom",
+      "y": 90
+    },
+    "facing=east,part=middle": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_middle",
+      "y": 90
+    },
+    "facing=east,part=single": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_single",
+      "y": 90
+    },
+    "facing=east,part=top": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_top",
+      "y": 90
+    },
+    "facing=north,part=bottom": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_bottom"
+    },
+    "facing=north,part=middle": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_middle"
+    },
+    "facing=north,part=single": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_single"
+    },
+    "facing=north,part=top": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_top"
+    },
+    "facing=south,part=bottom": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_bottom",
+      "y": 180
+    },
+    "facing=south,part=middle": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_middle",
+      "y": 180
+    },
+    "facing=south,part=single": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_single",
+      "y": 180
+    },
+    "facing=south,part=top": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_top",
+      "y": 180
+    },
+    "facing=west,part=bottom": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_bottom",
+      "y": 270
+    },
+    "facing=west,part=middle": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_middle",
+      "y": 270
+    },
+    "facing=west,part=single": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_single",
+      "y": 270
+    },
+    "facing=west,part=top": {
+      "model": "boltcraft_casino:block/decor/velvet_curtain_top",
+      "y": 270
+    }
+  }
+}

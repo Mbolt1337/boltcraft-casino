@@ -1,0 +1,337 @@
+# Neon signs, drawn by hand. art/neon.py turns every tube pixel into a small glowing cube standing off the wall
+# and paints a halo in the tube's darker shade round it.
+#
+# Tube colours: M pink, T cyan, Y yellow, V green, P red, U purple, W white. In tile drawings the other
+# characters are palette colours (art/palette.txt) drawn as they are.
+#
+# "= icon <name>"           a 16x16 icon sign, tubes only
+# "= tile <name>"           a 16x16 piece of a panel's board and gold frame
+# "= letter <name>"         a 5x7 (or narrower) tube letter for the panels, '#' is the tube
+# "= panel <name> <blocks>" a wide board: one line of tokens "<letter>:<colour>" or a number of blank pixels,
+#                           centred on the board, letters standing on row 4
+
+= icon chip
+................
+................
+.....MMTTMM.....
+...MM......MM...
+..M..........M..
+..M....TT....M..
+..M...T..T...M..
+..T..T....T..T..
+..T..T....T..T..
+..M...T..T...M..
+..M....TT....M..
+..M..........M..
+...MM......MM...
+.....MMTTMM.....
+................
+................
+
+= icon seven
+................
+................
+...PPPPPPPPP....
+...P......P.....
+..........P.....
+.........P......
+.........P......
+........P.......
+........P.......
+.......P........
+.......P........
+......P.........
+......P.........
+......P.........
+................
+................
+
+= icon star
+................
+................
+.......YY.......
+......Y..Y......
+......Y..Y......
+.YYYYY....YYYYY.
+..Y..........Y..
+...Y........Y...
+....Y......Y....
+....Y......Y....
+...Y...YY...Y...
+...Y..Y..Y..Y...
+..Y..Y....Y..Y..
+..YYY......YYY..
+................
+................
+
+= icon cards
+................
+.TTTTTTTT.......
+.T......T.......
+.T......T.......
+.T...WWWWWWWWW..
+.T...W.......W..
+.T...W..P.P..W..
+.T...W.PPPPP.W..
+.T...W..PPP..W..
+.T...W...P...W..
+.T...W.......W..
+.TTTTW.......W..
+.....W.......W..
+.....W.......W..
+.....WWWWWWWWW..
+................
+
+= icon dice
+................
+................
+...WWWWWWWWWW...
+..W..........W..
+..W.MM....MM.W..
+..W.MM....MM.W..
+..W..........W..
+..W....MM....W..
+..W....MM....W..
+..W..........W..
+..W.MM....MM.W..
+..W.MM....MM.W..
+..W..........W..
+...WWWWWWWWWW...
+................
+................
+
+= icon crown
+................
+................
+................
+..Y....YY....Y..
+..YY..Y..Y..YY..
+..Y.Y.Y..Y.Y.Y..
+..Y..Y....Y..Y..
+..Y..........Y..
+..Y..M....M..Y..
+..Y..........Y..
+..YYYYYYYYYYYY..
+..Y..........Y..
+..YYYYYYYYYYYY..
+................
+................
+................
+
+= icon cocktail
+................
+................
+.TTTTTTTTTTTTT..
+..T.....V...T...
+...T..MMV..T....
+....T.MM..T.....
+.....T...T......
+......T.T.......
+.......T........
+.......T........
+.......T........
+.......T........
+....TTTTTTT.....
+................
+................
+................
+
+# The board: a recessed panel of dark brushed steel in a two pixel gold frame. Light from the top left, so the
+# frame's top and left bevels shine, its bottom and right ones fall into shadow, and the frame throws a shadow
+# onto the top and left of the board. A brass rivet holds the frame at each end.
+= tile panel_left
+gfffffffffffffff
+feeddddddddddddd
+fd00000000000000
+fd01111111111111
+fd01112221111111
+fd01111111111111
+fd01111111112221
+fg01111111111111
+fe01111111111111
+fd01111122211111
+fd01111111111111
+fd01111111111111
+fd01122211111111
+fd12222222222222
+fccbbbbbbbbbbbbb
+ebaaaaaaaaaaaaaa
+
+= tile panel_middle
+ffffffffffffffff
+dddddddddddddddd
+0000000000000000
+1111111111111111
+1111111122211111
+1111111111111111
+1222111111111111
+1111111111111111
+1111111111112221
+1111111111111111
+1111222111111111
+1111111111111111
+1111111111111111
+2222222222222222
+bbbbbbbbbbbbbbbb
+aaaaaaaaaaaaaaaa
+
+= tile panel_right
+fffffffffffffffe
+dddddddddddddddb
+00000000000002cb
+11111111111112cb
+11112221111112cb
+11111111111112cb
+11111111122212cb
+11111111111112eb
+11111111111112cb
+11112221111112cb
+11111111111112cb
+11111111111112cb
+11111112221112cb
+22222222222222cb
+bbbbbbbbbbbbbbba
+aaaaaaaaaaaaaaaa
+
+= letter A
+.###.
+#...#
+#...#
+#####
+#...#
+#...#
+#...#
+
+= letter B
+####.
+#...#
+#...#
+####.
+#...#
+#...#
+####.
+
+= letter C
+.###.
+#...#
+#....
+#....
+#....
+#...#
+.###.
+
+= letter F
+#####
+#....
+#....
+####.
+#....
+#....
+#....
+
+= letter I
+###
+.#.
+.#.
+.#.
+.#.
+.#.
+###
+
+= letter J
+..###
+...#.
+...#.
+...#.
+...#.
+#..#.
+.##..
+
+= letter K
+#...#
+#..#.
+#.#..
+##...
+#.#..
+#..#.
+#...#
+
+= letter L
+#....
+#....
+#....
+#....
+#....
+#....
+#####
+
+= letter O
+.###.
+#...#
+#...#
+#...#
+#...#
+#...#
+.###.
+
+= letter P
+####.
+#...#
+#...#
+####.
+#....
+#....
+#....
+
+= letter R
+####.
+#...#
+#...#
+####.
+#.#..
+#..#.
+#...#
+
+= letter T
+#####
+..#..
+..#..
+..#..
+..#..
+..#..
+..#..
+
+= letter V
+#...#
+#...#
+#...#
+#...#
+.#.#.
+.#.#.
+..#..
+
+= letter bolt
+...##
+..##.
+.##..
+#####
+..##.
+.##..
+.#...
+
+= letter star
+.#.
+###
+.#.
+
+= panel boltcraft 5
+bolt:Y 4 B:M 2 O:M 2 L:M 2 T:M 2 C:T 2 R:T 2 A:T 2 F:T 2 T:T
+
+= panel jackpot 4
+star:M 2 J:Y 2 A:Y 2 C:Y 2 K:Y 2 P:Y 2 O:Y 2 T:Y 2 star:M
+
+= panel bar 2
+B:M 2 A:M 2 R:M
+
+= panel vip 2
+star:Y 1 V:T 2 I:T 2 P:T 1 star:Y

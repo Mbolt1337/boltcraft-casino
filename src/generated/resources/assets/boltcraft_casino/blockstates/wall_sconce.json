@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "boltcraft_casino:block/decor/wall_sconce",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "boltcraft_casino:block/decor/wall_sconce"
+    },
+    "facing=south": {
+      "model": "boltcraft_casino:block/decor/wall_sconce",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "boltcraft_casino:block/decor/wall_sconce",
+      "y": 270
+    }
+  }
+}

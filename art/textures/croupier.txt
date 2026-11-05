@@ -1,0 +1,299 @@
+# The croupier, a villager in a dealer's uniform: white shirt with gold sleeve garters, burgundy waistcoat with
+# gold buttons, black bow tie, dark trousers. Villager head (8x10x8, long nose, one brow, green eyes) with
+# slicked-back dark hair. 64x64 for models/croupier.bbmodel. Light from the top left.
+# Front faces are drawn as seen from the front; the croupier's right hand side is on the left of the drawing.
+@texture src/main/resources/assets/boltcraft_casino/textures/entity/croupier.png 64 64
+
+@tile head_front 0 0
+wxxxxxxw
+xyyxxxyx
+xlmmmmlx
+xllmmllx
+ixxxxxxi
+jWHjjHWj
+jjjiijjj
+ijjjjjji
+ijjjjjji
+hiiiiiih
+
+@tile head_back 8 0
+wxxxxxxw
+xyyyyyyx
+xxxxxxxx
+xxyyyyxx
+xxxxxxxx
+wxxxxxxw
+wwxxxxww
+iiwwwwii
+iiiiiiii
+hiiiiiih
+
+# Right side of the head: back of the head on the left of the drawing, the face on the right.
+@tile head_right 16 0
+wxxxxxxw
+xxyyyyxx
+xxxxxxxx
+xxxxxxll
+xxxxxjjl
+xxxxijjj
+wxxxjjjj
+wwijjjjj
+iijjjjjj
+hiiiiiii
+
+# Left side of the head: the face on the left of the drawing.
+@tile head_left 24 0
+wxxxxxxw
+xxyyyyxx
+xxxxxxxx
+llxxxxxx
+ljjxxxxx
+jjjixxxx
+jjjjxxxw
+jjjjjiww
+jjjjjjii
+iiiiiiih
+
+@tile head_top 32 0
+wxxxxxxw
+xxxyxxxx
+xxxyxxxx
+xxxyxxxx
+xxxyxxxx
+xxxyxxxx
+xxxxxxxx
+wxxxxxxw
+
+@tile head_bottom 40 0
+iiiiiiii
+iiiiiiii
+iiiiiiii
+iiiiiiii
+iiiiiiii
+iiiiiiii
+iiiiiiii
+hhhhhhhh
+
+@tile nose_front 48 0
+lj
+lj
+jj
+ij
+
+@tile nose_side 50 0
+jj
+jj
+ij
+ii
+
+@tile nose_top 52 0
+ll
+lj
+
+@tile nose_bottom 54 0
+ii
+ih
+
+# Waistcoat over the shirt, a V-neck showing the shirt, gold buttons, a belt with a gold buckle.
+@tile body_front 0 10
+KWWWWWWK
+vuCWWCts
+vuuCCtts
+vuuettts
+vuuuttts
+vuuettts
+vuuuttts
+vuuettts
+uuuuttss
+ttttssss
+211de112
+21111112
+
+@tile body_back 8 10
+KWWWWWWK
+uttttttt
+uttttttt
+uttttttt
+uttttdts
+uttttttt
+uttttttt
+uttttttt
+ttttttts
+ssssssss
+21111112
+21111112
+
+@tile body_side 16 10
+KWWWWK
+vuuuts
+uuttts
+uuttts
+utttts
+utttts
+utttts
+utttts
+utttss
+tsssss
+211112
+211112
+
+@tile body_top 22 10
+KWWWWWWK
+vuuuuuts
+vuuuuuts
+uuuuuuts
+uttttttt
+uttttttt
+
+@tile body_bottom 30 10
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+
+# Sleeves: white shirt, gold garter band, cuff with a gold link, villager hand.
+@tile arm_front 0 22
+WWWK
+WWCK
+WCCK
+dddc
+WCCK
+WCCK
+WCCK
+CCCK
+WWeK
+mlli
+llji
+ljji
+
+@tile arm_back 4 22
+CCKK
+CCKK
+CKKK
+dccb
+CKKK
+CKKK
+CKKK
+KKKK
+CCKK
+jjii
+jiii
+iiih
+
+@tile arm_outer 8 22
+WWCK
+WCCK
+WCCK
+eddc
+WCCK
+WCCK
+CCCK
+CCKK
+WCCK
+llji
+ljji
+jjii
+
+@tile arm_inner 12 22
+CCKK
+CKKK
+CKKK
+dccb
+CKKK
+CKKK
+KKKK
+KKKK
+CKKK
+jjii
+jiii
+iiih
+
+@tile arm_top 16 22
+WWWC
+WCCC
+WCCK
+CCKK
+
+@tile arm_bottom 20 22
+jjji
+jiii
+jiii
+iiih
+
+# Trousers with a pressed crease, polished black shoes.
+@tile leg_front 24 22
+2321
+2321
+2321
+2321
+2321
+2321
+2321
+2321
+2321
+2321
+0510
+0000
+
+@tile leg_back 28 22
+2221
+2221
+2221
+2221
+2221
+2221
+2221
+2221
+2211
+2111
+0000
+0000
+
+@tile leg_outer 32 22
+2322
+2321
+2321
+2321
+2321
+2321
+2321
+2321
+2321
+2221
+5100
+0000
+
+@tile leg_inner 36 22
+2211
+2211
+2111
+2111
+2111
+2111
+2111
+2111
+2111
+1111
+0000
+0000
+
+@tile leg_top 40 22
+2221
+2221
+2211
+1111
+
+@tile leg_bottom 44 22
+0000
+0000
+0000
+0000
+
+# Bow tie: two black wings and a knot.
+@tile bow_front 48 10
+0100
+
+@tile bow_side 52 10
+0

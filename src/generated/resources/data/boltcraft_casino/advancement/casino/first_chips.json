@@ -1,0 +1,30 @@
+{
+  "parent": "boltcraft_casino:casino/root",
+  "criteria": {
+    "first_chips": {
+      "conditions": {
+        "event": "first_chips"
+      },
+      "trigger": "boltcraft_casino:casino"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.boltcraft_casino.first_chips.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "boltcraft_casino:chip_1"
+    },
+    "title": {
+      "translate": "advancements.boltcraft_casino.first_chips.title"
+    }
+  },
+  "requirements": [
+    [
+      "first_chips"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

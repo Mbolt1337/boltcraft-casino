@@ -1,0 +1,179 @@
+{
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "channel": "boltcraft_casino:block/decor/marquee_channel",
+    "gold": "boltcraft_casino:block/decor/gold",
+    "bulbs": "boltcraft_casino:block/decor/marquee_bulbs",
+    "particle": "boltcraft_casino:block/decor/gold"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        14
+      ],
+      "to": [
+        10,
+        8,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#channel",
+          "uv": [
+            8,
+            6,
+            16,
+            10
+          ],
+          "rotation": 270
+        },
+        "up": {
+          "texture": "#gold"
+        },
+        "down": {
+          "texture": "#gold"
+        },
+        "east": {
+          "texture": "#gold"
+        },
+        "west": {
+          "texture": "#gold"
+        },
+        "south": {
+          "texture": "#gold"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        5,
+        13
+      ],
+      "to": [
+        9,
+        7,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bulbs",
+          "uv": [
+            5,
+            7,
+            7,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#bulbs",
+          "uv": [
+            5,
+            7,
+            7,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#bulbs",
+          "uv": [
+            5,
+            7,
+            7,
+            9
+          ]
+        },
+        "east": {
+          "texture": "#bulbs",
+          "uv": [
+            5,
+            7,
+            7,
+            9
+          ]
+        },
+        "west": {
+          "texture": "#bulbs",
+          "uv": [
+            5,
+            7,
+            7,
+            9
+          ]
+        }
+      },
+      "shade": false,
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    },
+    {
+      "from": [
+        7,
+        1,
+        13
+      ],
+      "to": [
+        9,
+        3,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bulbs",
+          "uv": [
+            1,
+            7,
+            3,
+            9
+          ]
+        },
+        "up": {
+          "texture": "#bulbs",
+          "uv": [
+            1,
+            7,
+            3,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#bulbs",
+          "uv": [
+            1,
+            7,
+            3,
+            9
+          ]
+        },
+        "east": {
+          "texture": "#bulbs",
+          "uv": [
+            1,
+            7,
+            3,
+            9
+          ]
+        },
+        "west": {
+          "texture": "#bulbs",
+          "uv": [
+            1,
+            7,
+            3,
+            9
+          ]
+        }
+      },
+      "shade": false,
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    }
+  ]
+}
